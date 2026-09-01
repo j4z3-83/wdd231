@@ -11,7 +11,7 @@
         grid-template-rows: 1fr;
     }
 
-    nav {
+    #navigation {
         background-color: var(--primary-color);
     }
 
@@ -36,7 +36,7 @@
         border-radius: 15px;
     }
 
-    /*--- HEADER ---*/
+    /*--- END HEADER ---*/
 
     /*--- MAIN ---*/
     main {
@@ -120,6 +120,5 @@
         grid-column: 1 / 4;
         grid-row: 4 / 5;
     }
-
-    /*--- MAIN ---*/
+    /*--- END MAIN ---*/
 }

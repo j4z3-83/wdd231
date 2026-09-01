@@ -85,7 +85,7 @@ nav a {
     font-weight: 700;
 }
 
-a:hover {
+#navigation a:hover {
     background-color: var(--secondary-color);
     color: var(--text-color2);
 }
@@ -204,7 +204,22 @@ h1 {
 /*--- FOOTER ---*/
 footer {
     text-align: center;
-    background-color: var(--secondary-color);
     padding: .5rem;
     margin: 1rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links img {
+    width: 50px;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.copyright {
+    background-color: var(--secondary-color);
 }
