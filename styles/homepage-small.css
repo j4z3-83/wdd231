@@ -30,11 +30,12 @@ header {
     margin-left: 1rem;
 }
 
-.title h1 {
+.title p {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin-right: 3rem;
     margin-top: 1.5rem;
+    font-size: 1.5rem;
 }
 
 /*---SMALL VIEW NAVIGATION---*/
