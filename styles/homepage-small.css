@@ -30,7 +30,7 @@ header {
     margin-left: 1rem;
 }
 
-.title p {
+.title span {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin-right: 3rem;
