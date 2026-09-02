@@ -134,7 +134,7 @@ h1 {
 }
 
 .pic img {
-    max-width: 400px;
+    max-width: 350px;
     border: solid rgba(0, 0, 0, .1);
     margin-bottom: 1.5rem;
     border-radius: 15px;

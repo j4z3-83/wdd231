@@ -71,7 +71,7 @@
     }
 
     .pic img {
-        width: 400px;
+        width: 350px;
     }
 
     .coursesection {
@@ -120,5 +120,6 @@
         grid-column: 1 / 4;
         grid-row: 4 / 5;
     }
+
     /*--- END MAIN ---*/
 }
