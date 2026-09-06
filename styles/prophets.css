@@ -1,0 +1,44 @@
+:root {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+h1 {
+    max-width: 1920px;
+    text-align: center;
+    color: darkblue;
+}
+
+#cards {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+}
+
+#cards section {
+    display: grid;
+    background-color: lavender;
+    border-radius: 15px;
+    border: solid 2px darkblue;
+}
+
+#cards h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+#cards p {
+    text-align: center;
+    margin: 0rem;
+}
+
+#cards img {
+    place-self: center;
+    width: 75%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 10px 3px black;
+}
