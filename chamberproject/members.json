@@ -10,7 +10,7 @@
                 "postalcode": "T1T 1T1"
             },
             "companyurl": "www.nevermindvintage.ca",
-            "companypicture": "images/store_nevermindvintage.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_nevermindvintage.jpg",
             "membershiplevel": "1"
         },
         {
@@ -23,7 +23,7 @@
                 "postalcode": "T1T 1T1"
             },
             "companyurl": "www.jacaranda.ca",
-            "companypicture": "images/store_jacaranda.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_jacaranda.jpg",
             "membershiplevel": "3"
         },
         {
@@ -36,7 +36,7 @@
                 "postalcode": "T1T 1T1"
             },
             "companyurl": "www.bizuteria.ca",
-            "companypicture": "images/store_bizuteria.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_bizuteria.jpg",
             "membershiplevel": "3"
         },
         {
@@ -49,7 +49,7 @@
                 "postalcode": "T1T 1T1"
             },
             "companyurl": "www.Meetmethere.ca",
-            "companypicture": "images.store_meetmethere.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_meetmethere.jpg",
             "membershiplevel": "2"
         },
         {
@@ -62,7 +62,7 @@
                 "postalcode": "T1T 1T1"
             },
             "companyurl": "www.mayadan.ca",
-            "companypicture": "",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_mayadancafe.jpg",
             "membershiplevel": "1"
         },
         {
@@ -75,7 +75,7 @@
                 "postalcode": "T1T 1T1"
             },
             "companyurl": "www.dragonfliesjewerly.ca",
-            "companypicture": "images.store_dragonflies.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_dragonflies.jpg",
             "membershiplevel": "2"
         },
         {
@@ -88,7 +88,7 @@
                 "postalcode": "T1T 1T1"
             },
             "companyurl": "www.downtowncomics.ca",
-            "companypicture": "images/downtowncomics.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_downtowncomics.jpg",
             "membershiplevel": "1"
         }
     ]
