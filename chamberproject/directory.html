@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jared Aldridge">
+    <meta name="Chamber of Commerce" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jared Aldridge, WDD231, Chamber of Commerce website">
+    <title>Chamber of Commerce Home Page</title>
+
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburgerbutton.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture class="logo">
+            <img src="images/coaldale_full_logo.png" alt="j4z logo">
+        </picture>
+        <button id="menu" aria-label="Menu"></button>
+        <nav class="nav" id="navigation">
+            <ul class="navigationul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="index.html">Join</a></li>
+                <li><a href="index.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Directory</h1>
+        <button>Grid</button>
+        <button>List</button>
+        <div id="cards"></div>
+    </main>
+    <footer>
+        <p class="chamberaddress">
+            Coaldale Chamber of Commerce<br>
+            1801 20th Ave #200,<br>
+            Coaldale, AB<br>
+            T1M 1N1
+        </p>
+        <nav class="sociallinks">
+            <a href="https://github.com/j4z3-83">
+                <img src="images/github.svg" alt="github logo">
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+                <img src="images/linkedin.svg" alt="linkedin logo">
+            </a>
+        </nav>
+        <p class="projectinfo">
+            WDD231 Class Project<br>
+            Jared Aldridge<br>
+            <span id="currentYear"></span> Coaldale CHamber of Commerce<br>
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+
+</body>
+
+</html>

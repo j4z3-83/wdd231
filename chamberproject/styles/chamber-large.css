@@ -1,0 +1,75 @@
+@media screen and (min-width: 600px) {
+
+    /*--- HEADER ---*/
+    #menu {
+        display: none;
+    }
+
+    .head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+    }
+
+    #navigation {
+        grid-column: 2 / 3;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+        justify-content: end;
+        align-items: center;
+    }
+
+    .nav li {
+        width: 150px;
+        border-radius: 15px;
+    }
+
+    .nav a {
+        color: var(--text-color1);
+        display: block;
+        border-radius: 15px;
+    }
+
+    /*--- END HEADER ---*/
+
+    /* ---FOOTER--- */
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: var(--primary-color);
+        align-items: center;
+    }
+
+    .chamberaddress {
+        grid-column: 1 / 2;
+        padding: 1rem;
+        text-align: start;
+    }
+
+    .sociallinks {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sociallinks img {
+        width: 50px;
+        height: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .projectinfo {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        padding: 1rem;
+        text-align: end;
+    }
+
+    /* ---FOOTER---*/
+}

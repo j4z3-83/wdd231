@@ -1,0 +1,95 @@
+{
+    "memberinformation": [
+        {
+            "companyname": "Nevermind Vinrtage",
+            "companyaddress": {
+                "street": "123 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companyurl": "www.nevermindvintage.ca",
+            "companypicture": "images/store_nevermindvintage.jpg",
+            "membershiplevel": "1"
+        },
+        {
+            "companyname": "Jacaranda",
+            "companyaddress": {
+                "street": "456 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companyurl": "www.jacaranda.ca",
+            "companypicture": "images/store_jacaranda.jpg",
+            "membershiplevel": "3"
+        },
+        {
+            "companyname": "Bizuteria",
+            "companyaddress": {
+                "street": "789 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companyurl": "www.bizuteria.ca",
+            "companypicture": "images/store_bizuteria.jpg",
+            "membershiplevel": "3"
+        },
+        {
+            "companyname": "Meet Me There",
+            "companyaddress": {
+                "street": "321 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companyurl": "www.Meetmethere.ca",
+            "companypicture": "images.store_meetmethere.jpg",
+            "membershiplevel": "2"
+        },
+        {
+            "companyname": "Mayadan Cafe",
+            "companyaddress": {
+                "street": "654 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companyurl": "www.mayadan.ca",
+            "companypicture": "",
+            "membershiplevel": "1"
+        },
+        {
+            "companyname": "Dragonflies",
+            "companyaddress": {
+                "street": "987 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companyurl": "www.dragonfliesjewerly.ca",
+            "companypicture": "images.store_dragonflies.jpg",
+            "membershiplevel": "2"
+        },
+        {
+            "companyname": "Downtown Comics",
+            "companyaddress": {
+                "street": "753 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companyurl": "www.downtowncomics.ca",
+            "companypicture": "images/downtowncomics.jpg",
+            "membershiplevel": "1"
+        }
+    ]
+}
