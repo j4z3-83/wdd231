@@ -7,38 +7,40 @@ async function getMemberData() {
     const data = await response.json();
     console.table(data.members); // temporary testing of data response
 
-    displayMembers(data.memberinformation);
+    displayMembers(data.members);
 }
 
 const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement("section");
         let companyName = document.createElement("h2");
-        let address = document.createElement("p");
-        let phoneNumber = document.createElement("p");
-        let websiteURL = document.createElement("a");
+        let address = document.createElement("P");
+        let pNumber = document.createElement("p");
+        let companyURL = document.createElement("p");
         let storeFront = document.createElement("img");
 
+        companyName.textContent = `${member.companyname}`
         address.textContent = `
-        ${member.street}<br>
-        ${member.city} ${member.province}<br>
-        ${member.postalcode}
-        `;
+        ${member.companyaddress.street},\n
+        ${member.companyaddress.city}, ${member.companyaddress.province},\n
+        ${member.companyaddress.postalcode}`;
+        pNumber.textContent = `${member.companynumber}`;
+        companyURL.textContent = `${member.companyurl}`
 
         storeFront.setAttribute('src', member.companypicture);
-        storeFront.setAttribute('alt', `store front of ${prophet.companyname}`);
+        storeFront.setAttribute('alt', `picture of ${member.companyname} store front`);
         storeFront.setAttribute('loading', 'lazy');
         storeFront.setAttribute('width', '300');
         storeFront.setAttribute('height', '450');
 
         card.appendChild(companyName);
         card.appendChild(address);
-        card.appendChild(phoneNumber);
-        card.appendChild(websiteURL);
-        card.appendChild(portrait);
+        card.appendChild(pNumber);
+        card.appendChild(companyURL);
+        card.appendChild(storeFront);
 
-        cards.appendChild(card);
-    });
+        cards.appendChild(card)
+    })
 }
 
 getMemberData();
