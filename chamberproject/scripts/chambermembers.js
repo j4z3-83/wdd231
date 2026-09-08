@@ -14,18 +14,19 @@ const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement("section");
         let companyName = document.createElement("h2");
-        let address = document.createElement("P");
+        let addressDisplay = document.createElement("container");
         let pNumber = document.createElement("p");
         let companyURL = document.createElement("p");
         let storeFront = document.createElement("img");
 
         companyName.textContent = `${member.companyname}`
-        address.textContent = `
-        ${member.companyaddress.street},\n
-        ${member.companyaddress.city}, ${member.companyaddress.province},\n
-        ${member.companyaddress.postalcode}`;
-        pNumber.textContent = `${member.companynumber}`;
-        companyURL.textContent = `${member.companyurl}`
+        addressDisplay.innerHTML = `
+        <p>${member.companyaddress.street}
+        <p>${member.companyaddress.city}, ${member.companyaddress.province},</p>
+        <p>${member.companyaddress.postalcode}</p>`;
+
+        pNumber.textContent = `Phone: ${member.companynumber}`;
+        companyURL.textContent = `URL: ${member.companyurl}`
 
         storeFront.setAttribute('src', member.companypicture);
         storeFront.setAttribute('alt', `picture of ${member.companyname} store front`);
@@ -34,7 +35,7 @@ const displayMembers = (members) => {
         storeFront.setAttribute('height', '450');
 
         card.appendChild(companyName);
-        card.appendChild(address);
+        card.appendChild(addressDisplay);
         card.appendChild(pNumber);
         card.appendChild(companyURL);
         card.appendChild(storeFront);

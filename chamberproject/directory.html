@@ -15,6 +15,7 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburgerbutton.js" defer></script>
     <script src="scripts/chambermembers.js" defer></script>
+    <script src="scripts/gridlist.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,9 +41,13 @@
     </header>
     <main>
         <h1>Directory</h1>
-        <button>Grid</button>
-        <button>List</button>
-        <div id="cards"></div>
+        <div id="buttons">
+            <button id="grid" class="toggle-btn">Grid</button>
+            <button id="list" class="toggle-btn">List</button>
+        </div>
+        <article class="grid">
+            <div id="cards"></div>
+        </article>
     </main>
     <footer>
         <p class="chamberaddress">
