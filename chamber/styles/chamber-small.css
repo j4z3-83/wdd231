@@ -196,11 +196,11 @@ button:hover {
     display: none;
 }
 
-.list #cards &:nth-child(even) {
+.list #cards section:nth-child(even) {
     background-color: var(--accent-color);
 }
 
-.list #cards &:last-child {
+.list #cards section:last-child {
     margin-bottom: rem;
 }
 
