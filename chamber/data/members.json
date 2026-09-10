@@ -11,7 +11,7 @@
             },
             "companynumber": "(123) 456 7890",
             "companyurl": "www.nevermindvintage.ca",
-            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_nevermindvintage.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/store_nevermindvintage.jpg",
             "membershiplevel": "1"
         },
         {
@@ -25,7 +25,7 @@
             },
             "companynumber": "(123) 456 7890",
             "companyurl": "www.jacaranda.ca",
-            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_jacaranda.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/store_jacaranda.jpg",
             "membershiplevel": "3"
         },
         {
@@ -39,7 +39,7 @@
             },
             "companynumber": "(123) 456 7890",
             "companyurl": "www.bizuteria.ca",
-            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_bizuteria.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/store_bizuteria.jpg",
             "membershiplevel": "3"
         },
         {
@@ -53,7 +53,7 @@
             },
             "companynumber": "(123) 456 7890",
             "companyurl": "www.Meetmethere.ca",
-            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_meetmethere.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/store_meetmethere.jpg",
             "membershiplevel": "2"
         },
         {
@@ -67,7 +67,7 @@
             },
             "companynumber": "(123) 456 7890",
             "companyurl": "www.mayadan.ca",
-            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_mayadancafe.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/store_mayadancafe.jpg",
             "membershiplevel": "1"
         },
         {
@@ -81,7 +81,7 @@
             },
             "companynumber": "(123) 456 7890",
             "companyurl": "www.dragonfliesjewerly.ca",
-            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_dragonflies.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/store_dragonflies.jpg",
             "membershiplevel": "2"
         },
         {
@@ -95,7 +95,7 @@
             },
             "companynumber": "(123) 456 7890",
             "companyurl": "www.downtowncomics.ca",
-            "companypicture": "https://j4z3-83.github.io/wdd231/chamberproject/images/store_downtowncomics.jpg",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/store_downtowncomics.jpg",
             "membershiplevel": "1"
         }
     ]
