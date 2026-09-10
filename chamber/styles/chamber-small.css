@@ -119,93 +119,90 @@ button:hover {
     display: grid;
     grid-gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
 
-    section {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: .5fr .25fr 1fr 1fr;
-        background-color: var(--primary-color);
-        border-radius: 15px;
-        border: solid 2px var(--accent-color);
-    }
+.grid #cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .5fr .25fr 1fr 1fr;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    border: solid 2px var(--accent-color);
+}
 
-    h2 {
-        grid-column: 1 / 3;
-        grid-row: 1 / 2;
-        color: var(--text-color2);
-        text-align: center;
-        padding: .5rem;
-    }
+.grid #cards h2 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    color: var(--text-color2);
+    text-align: center;
+    padding: .5rem;
+}
 
-    container {
-        grid-column: 1 / 3;
-        text-align: center;
-        font-size: 1rem;
-        margin: 0;
-    }
+.grid #cards container {
+    grid-column: 1 / 3;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+}
 
-    p {
-        grid-column: 2 / 3;
-        text-align: center;
-        align-self: center;
-        padding: .25rem;
-        margin: 0rem;
-    }
+.grid #cards p {
+    grid-column: 2 / 3;
+    text-align: center;
+    align-self: center;
+    padding: .25rem;
+    margin: 0rem;
+}
 
-    img {
-        grid-column: 1 / 2;
-        grid-row: 3 / 5;
-        place-self: center;
-        width: 50%;
-        height: auto;
-        border-radius: 15px;
-        margin-top: 5px;
-        margin-bottom: 15px;
-        box-shadow: 3px 3px 10px 3px black;
-    }
+.grid #cards img {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    place-self: center;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 10px 3px black;
 }
 
 /*--- LIST DISPLAY ---*/
 .list #cards {
     display: flex;
     flex-direction: column;
-
-    section {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: 0;
-        padding: .5rem;
-
-        h2 {
-            grid-column: 1 / 2;
-            grid-row: 1 / 4;
-            font-size: smaller;
-        }
-
-        container {
-            grid-column: 2 / 3
-        }
-
-        p {
-            font-size: smaller;
-        }
-
-        img {
-            display: none;
-        }
-
-        &:nth-child(even) {
-            background-color: var(--accent-color);
-        }
-
-        &:last-child {
-            margin-bottom: rem;
-        }
-    }
 }
 
+.list #cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: .5rem;
+}
 
+.list #cards h2 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    font-size: smaller;
+}
 
+.list #cards container {
+    grid-column: 2 / 3
+}
+
+.list #cards p {
+    font-size: smaller;
+}
+
+.list #cards img {
+    display: none;
+}
+
+.list #cards &:nth-child(even) {
+    background-color: var(--accent-color);
+}
+
+.list #cards &:last-child {
+    margin-bottom: rem;
+}
 
 /* ---FOOTER--- */
 footer {
