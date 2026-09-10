@@ -1,4 +1,4 @@
-const url = 'https://j4z3-83.github.io/wdd231/chamberproject/data/members.json';
+const url = 'https://j4z3-83.github.io/wdd231/chamber/data/members.json';
 
 const cards = document.querySelector('#cards');
 
