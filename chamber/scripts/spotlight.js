@@ -2,16 +2,19 @@ const url = 'https://j4z3-83.github.io/wdd231/chamber/data/members.json';
 
 const cards = document.querySelector('#cards');
 
-async function getMemberData() {
+async function getSpotlightData() {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.members); // temporary testing of data response
+    console.table(data.members);
 
     displayMembers(data.members);
 }
 
 const displayMembers = (members) => {
-    members.forEach((member) => {
+
+    const shuffleMembers = shuffle(members)
+
+    shuffleMembers.forEach((member) => {
         let card = document.createElement("section");
         let companyName = document.createElement("h2");
         let addressDisplay = document.createElement("container");
@@ -44,4 +47,15 @@ const displayMembers = (members) => {
     })
 }
 
-getMemberData();
+function shuffle(members) {
+    for (let i = members.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [members[i], members[j]] = [members[j], members[i]];
+    }
+    const shuffled = members.slice(0, 3);
+    return shuffled;
+}
+
+
+
+getSpotlightData();
