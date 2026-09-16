@@ -142,18 +142,19 @@ footer {
     max-width: 1250px;
     border-radius: 15px;
     margin-top: 10px;
-
+    
 }
 
 .hero img {
     max-width: 100%;
     border-radius: 15px;
     object-fit: cover;
+    border: 1px solid var(--accent-color);
 }
 
 .weather-cards {
-    background-color: aliceblue;
     text-align: center;
+    
 }
 
 .weather-cards {
@@ -163,6 +164,7 @@ footer {
     background-color: var(--secondary-color);
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 1px solid var(--accent-color);
 }
 
 #town-name {
@@ -177,6 +179,7 @@ footer {
     margin-bottom: 10px;
     border-radius: 15px;
     padding: 10px;
+    border: 1px solid var(--accent-color);
 }
 
 #day-card3 {
@@ -191,6 +194,7 @@ footer {
     border-radius: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 1px solid var(--accent-color);
 }
 
 .events h2 {
@@ -204,6 +208,7 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
     padding: 4px;
+    border: 1px solid var(--accent-color);
 }
 
 .event3 {
@@ -244,6 +249,7 @@ button:hover {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     background-color: var(--secondary-color);
     border-radius: 15px;
+    border: 1px solid var(--accent-color);
 }
 
 .grid #cards section {
