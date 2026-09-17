@@ -151,6 +151,11 @@ footer {
     border: 1px solid var(--accent-color);
 }
 
+.calltoaction {
+    margin-left: 2%;
+    margin-bottom: 15px;
+}
+
 .join ul {
     padding-right: 2.5rem;
     list-style-type: none;
@@ -168,7 +173,7 @@ footer {
 }
 
 
-.weather-cards {
+#weather-cards {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -183,19 +188,13 @@ footer {
     grid-column: 1 / 4;
 }
 
-#day-card1,
-#day-card2,
-#day-card3 {
+#weather-cards section{
     background-color: var(--primary-color);
-    margin-left: 10px;
+    margin: 5px;
     margin-bottom: 10px;
     border-radius: 15px;
     padding: 10px;
     border: 1px solid var(--accent-color);
-}
-
-#day-card3 {
-    margin-right: 10px;
 }
 
 .events {
