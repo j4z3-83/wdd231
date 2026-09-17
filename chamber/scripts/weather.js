@@ -45,7 +45,7 @@ function displayResults(data) {
 
         day.textContent = formatDate(dailyForecasts[i].dt_txt).toLocaleDateString('en-US', { weekday: 'long' });
         date.textContent = formatDate(dailyForecasts[i].dt_txt).toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
-        temp.textContent = `${dailyForecasts[i].main.temp}&deg;C`;
+        temp.textContent = `${dailyForecasts[i].main.temp}°C`;
         
         icon.setAttribute('src', `https://openweathermap.org/img/wn/${dailyForecasts[i].weather[0].icon}@2x.png`);
         icon.setAttribute('alt', dailyForecasts[i].weather[0].description);
