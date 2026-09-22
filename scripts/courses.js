@@ -111,7 +111,7 @@ function createCourseDisplay(filteredCourses) {
         let completed = course.completed;
         if (completed === false) {
             title.innerHTML = `${course.title}`;
-        } else{
+        } else {
             title.innerHTML = ` &#10004 ${course.title}`;
         }
 
@@ -122,5 +122,35 @@ function createCourseDisplay(filteredCourses) {
 
         document.querySelector(".courses").appendChild(display);
         totalCredits.innerHTML = `The total credits listed above is  ${credits}`;
+        
+    });
+}
+
+let courseInfo;
+const openButton = document.querySelector('#openButton');
+const courseDetails = document.querySelector('#courseDetails');
+
+openButton.addEventListener("click", () => {
+    courseDetails.showModal();
+    displayCourseDetails()
+    });
+
+closeButton.addEventListener("click", () => {
+    courseDetails.close();
+});
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>Test</h2>
+    <h3>Test</h3>
+    <p><strong>Credits</strong>: testing</p>
+    <p><strong>Certificate</strong>: testing</p>
+    <p>testing</p>
+    <p><strong>Technologies</strong>: testing</p>
+  `;
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
     });
 }

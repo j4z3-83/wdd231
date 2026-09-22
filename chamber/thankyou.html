@@ -19,8 +19,7 @@
 
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburgerbutton.js" defer></script>
-    <script src="scripts/chambermembers.js" defer></script>
-    <script src="scripts/gridlist.js" defer></script>
+    <script src="scripts/form.js" defer></script>
 
     <link rel="icon" href="images/favicon.ico">
 
@@ -46,18 +45,16 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <h1>Directory</h1>
-        <div id="buttons">
-            <button id="grid" class="toggle-btn">Grid</button>
-            <button id="list" class="toggle-btn">List</button>
+        <div class="thankyou">
+            <h1>Welcome to the Coaldale Chamber of Commerce</h1>
+            <h2>Member Details</h2>
+            <div id="memberDetails"></div>
+            <h2>Company Details</h2>
+            <div id="orgDetails"></div>
+            
         </div>
-        <article class="grid">
-            <div id="cards"></div>
-        </article>
     </main>
-
     <footer>
         <p class="chamberaddress">
             Coaldale Chamber of Commerce<br>
@@ -80,6 +77,8 @@
             <span id="lastModified"></span>
         </p>
     </footer>
+    
+
 </body>
 
 </html>

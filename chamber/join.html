@@ -17,10 +17,10 @@
     <link rel="stylesheet" href="styles/chamber-small.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
 
+
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburgerbutton.js" defer></script>
-    <script src="scripts/chambermembers.js" defer></script>
-    <script src="scripts/gridlist.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
 
     <link rel="icon" href="images/favicon.ico">
 
@@ -41,23 +41,60 @@
             <ul class="navigationul">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="index.html">Join</a></li>
                 <li><a href="index.html">Discover</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <h1>Directory</h1>
-        <div id="buttons">
-            <button id="grid" class="toggle-btn">Grid</button>
-            <button id="list" class="toggle-btn">List</button>
+        <div class="form">
+            <div class="box-container">
+                <div class="box">
+                    <h1>Non-Profit Membership</h1>
+                    <button class="nonprofit" , id="npButton">Learn More</button>
+                </div>
+                <div class="box">
+                    <h1>Bronze Membership</h1>
+                    <button class="bronze" , id="bronzeButton">Learn More</button>
+                </div>
+                <div class="box">
+                    <h1>Silver Membership</h1>
+                    <button class="silver" , id="silverButton">Learn More</button>
+                </div>
+                <div class="box">
+                    <h1>Gold Membership</h1>
+                    <button class="gold" , id="goldButton">Learn More</button>
+                </div>
+            </div>
+            <form method="GET" action="thankyou.html" class="joinForm">
+                <fieldset>
+                    <legend>Member Information</legend>
+                    <label>First Name*<input type="text" name="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" required></label>
+                    <label>Organization Title*<input type="organization-title" name="orgtitle" required></label>
+                    <label>Mobile Phone<input type="tel" name="phone" placeholder="1234441234"></label>
+                    <label>Email<input type="email" name="email" placeholder="name@email.com" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label><input type="radio" name="membership" value="non-profit">Non-Profit</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze</label>
+                    <label><input type="radio" name="membership" value="silver">Silver</label>
+                    <label><input type="radio" name="membership" value="gold">Gold</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Company Information</legend>
+                    <label>Company Name*<input type="organization" name="orgname" required></label>
+                    <label>Company Description<textarea rows="5" name="description"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Become a Member">
+            </form>
         </div>
-        <article class="grid">
-            <div id="cards"></div>
-        </article>
+        <dialog id="memberships">
+            <div id="modalContent"></div>
+            <button id="closeButton">Close</button>
+        </dialog>
     </main>
-
     <footer>
         <p class="chamberaddress">
             Coaldale Chamber of Commerce<br>
@@ -80,6 +117,7 @@
             <span id="lastModified"></span>
         </p>
     </footer>
+
 </body>
 
 </html>

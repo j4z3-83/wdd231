@@ -157,7 +157,8 @@ h1 {
 
 .all:hover,
 .cse:hover,
-.wdd:hover {
+.wdd:hover,
+.courses button:hover {
     background-color: var(--primary-color);
     color: var(--text-color1);
 }
@@ -178,7 +179,7 @@ h1 {
     justify-content: center;
 }
 
-.courses section {
+.courses button {
     text-align: center;
     background-color: var(--secondary-color);
     border-radius: 15px;
@@ -198,6 +199,20 @@ h1 {
 .credits {
     text-align: center;
     margin-bottom: 1rem;
+}
+
+#courseDetails {
+    width: 600px;
+    height: 400px;
+    background-color: var(--secondary-color);
+    border: 2px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    padding: 20px;
+}
+
+::backdrop {
+    background-color: rgb(0 0 0 / 50%);
 }
 
 /*--- END MAIN ---*/
