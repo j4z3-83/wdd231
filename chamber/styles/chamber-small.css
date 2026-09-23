@@ -164,7 +164,8 @@ footer {
     justify-self: center;
     text-align: start;
     position: relative;
-    bottom: 170px;
+    bottom: 120px;
+    left: 20px;
     background-color: rgba(255, 255, 255, .5);
     width: 100%;
     max-width: 1250px;
@@ -174,7 +175,8 @@ footer {
 
 .join {
     position: relative;
-    bottom: 150px;
+    bottom: 100px;
+    left: 20px;
 }
 
 .join ul {
