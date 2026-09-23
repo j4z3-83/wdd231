@@ -5,7 +5,7 @@
     --primary-color: #b2bfa9;
     --secondary-color: #fead22;
     --accent-color: #8c9e7e;
-    --text-color1: #3f5e28;
+    --text-color1: #2b3b19;
     --text-color2: #202628;
 }
 
@@ -89,6 +89,11 @@ header {
 
 .open a {
     display: block;
+}
+
+.navigationul a.active{
+    background-color: var(--secondary-color);
+    color: var(--text-color1);
 }
 
 /*---END HEADER---*/

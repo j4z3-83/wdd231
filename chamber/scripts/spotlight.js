@@ -3,11 +3,18 @@ const url = 'https://j4z3-83.github.io/wdd231/chamber/data/members.json';
 const cards = document.querySelector('#cards');
 
 async function getSpotlightData() {
-    const response = await fetch(url);
-    const data = await response.json();
-    console.table(data.members);
-    
-    displayMembers(data.members);
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            console.table(data.members);
+            displayMembers(data.members);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 const displayMembers = (members) => {
