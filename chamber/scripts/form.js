@@ -27,4 +27,4 @@ document.querySelector("#orgDetails").innerHTML = `
 <p><strong>Company Description:</strong> ${myInfo.get('description')}</p>
 `;
 
-document.getElementById("timestamp").innerHTML = new Date().toLocalString();
+document.getElementById("date").innerHTML = new Date().toLocalString();
