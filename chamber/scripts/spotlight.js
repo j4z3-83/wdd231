@@ -6,13 +6,14 @@ async function getSpotlightData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.members);
-
+    
     displayMembers(data.members);
 }
 
 const displayMembers = (members) => {
 
-    const shuffleMembers = shuffle(members)
+    const filteredMembers = members.filter(member => member.membershiplevel >= 2)
+    const shuffleMembers = shuffle(filteredMembers)
 
     shuffleMembers.forEach((member) => {
         let card = document.createElement("section");

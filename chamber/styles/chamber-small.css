@@ -134,15 +134,17 @@ footer {
 
 
 /*--- INDEX MAIN ---*/
+
 .chamber {
     font-size: 1.5rem;
+    text-align: start;
+    margin: .5rem 0;
 }
 
 .hero {
     grid-column: 1 / 3;
     max-width: 1250px;
     border-radius: 15px;
-    margin-top: 10px;
 }
 
 .hero img {
@@ -153,8 +155,21 @@ footer {
 }
 
 .calltoaction {
-    margin-left: 2%;
-    margin-bottom: 15px;
+    grid-column: 1 / 3;
+    justify-self: center;
+    text-align: start;
+    position: relative;
+    bottom: 170px;
+    background-color: rgba(255, 255, 255, .5);
+    width: 100%;
+    max-width: 1250px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.join {
+    position: relative;
+    bottom: 150px;
 }
 
 .join ul {
@@ -172,7 +187,6 @@ footer {
     color: var(--text-color2);
     font-weight: 700;
 }
-
 
 #weather-cards {
     text-align: center;
@@ -226,6 +240,7 @@ footer {
 .event3 {
     margin-bottom: 10px;
 }
+
 
 /*--- DIRECTORY MAIN ---*/
 

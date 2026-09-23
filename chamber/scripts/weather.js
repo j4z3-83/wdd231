@@ -28,7 +28,7 @@ async function apiFetch() {
 function displayResults(data) {
     townName.innerHTML = `${data.city.name}`;
 
-    const dailyForecasts = data.list.filter(item => item.dt_txt.includes("21:00:00")).slice(0, 3);
+    const dailyForecasts = data.list.filter(item => item.dt_txt.includes("12:00:00")).slice(0, 3);
 
     const formatDate = (dateTxt) => {
         const dateObject = new Date(dateTxt);
