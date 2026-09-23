@@ -491,7 +491,7 @@ button:hover {
 }
 
 /*MODAL*/
-dialog {
+dialog {    
     margin-top: 25%;
     margin-left: 6%;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -504,8 +504,7 @@ dialog {
 }
 
 #modalContent {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-items: center;
     align-items: center;
 }
