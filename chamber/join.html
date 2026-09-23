@@ -7,7 +7,7 @@
     <meta name="author" content="Jared Aldridge">
     <meta name="Chamber of Commerce" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Jared Aldridge, WDD231, Chamber of Commerce website">
-    <title>Chamber of Commerce Directory Page</title>
+    <title>Chamber of Commerce Join Page</title>
 
     <meta property="og:title" content="Coaldale Chamber Directory">
     <meta property="og:description" content="Town of Coaldale Chamber of Commerce business directory page">
@@ -47,33 +47,34 @@
         </nav>
     </header>
     <main>
+        <h1>Join the Coaldale Chamber of Commerce</h1>
         <div class="form">
             <div class="box-container">
                 <div class="box">
-                    <h1>Non-Profit Membership</h1>
-                    <button class="nonprofit" , id="npButton">Learn More</button>
+                    <h2>Non-Profit Membership</h2>
+                    <button class="nonprofit" id="npButton">Learn More</button>
                 </div>
                 <div class="box">
-                    <h1>Bronze Membership</h1>
-                    <button class="bronze" , id="bronzeButton">Learn More</button>
+                    <h2>Bronze Membership</h2>
+                    <button class="bronze" id="bronzeButton">Learn More</button>
                 </div>
                 <div class="box">
-                    <h1>Silver Membership</h1>
-                    <button class="silver" , id="silverButton">Learn More</button>
+                    <h2>Silver Membership</h2>
+                    <button class="silver" id="silverButton">Learn More</button>
                 </div>
                 <div class="box">
-                    <h1>Gold Membership</h1>
-                    <button class="gold" , id="goldButton">Learn More</button>
+                    <h2>Gold Membership</h2>
+                    <button class="gold" id="goldButton">Learn More</button>
                 </div>
             </div>
             <form method="GET" action="thankyou.html" class="joinForm">
                 <fieldset>
                     <legend>Member Information</legend>
-                    <label>First Name*<input type="text" name="fname" required></label>
-                    <label>Last Name*<input type="text" name="lname" required></label>
-                    <label>Organization Title*<input type="organization-title" name="orgtitle" required></label>
-                    <label>Mobile Phone<input type="tel" name="phone" placeholder="1234441234"></label>
-                    <label>Email<input type="email" name="email" placeholder="name@email.com" required></label>
+                    <label>First Name*<input type="text" name="fname" autocomplete="given-name" required></label>
+                    <label>Last Name*<input type="text" name="lname" autocomplete="family-name" required></label>
+                    <label>Organization Title*<input type="organization-title" name="orgtitle" autocomplete="organization-title" required></label>
+                    <label>Mobile Phone<input title="tel" type="tel" name="phone" autocomplete="tel" placeholder="1234441234"></label>
+                    <label>Email<input title="email" type="email" name="email" autocomplete="email" placeholder="name@email.com" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Membership Level</legend>
@@ -85,7 +86,7 @@
                 <fieldset>
                     <legend>Company Information</legend>
                     <label>Company Name*<input type="organization" name="orgname" required></label>
-                    <label>Company Description<textarea rows="5" name="description"></textarea></label>
+                    <label>Company Description<textarea title="description" rows="5" name="description"></textarea></label>
                 </fieldset>
                 <input type="submit" value="Become a Member">
             </form>
