@@ -1,6 +1,5 @@
 const weatherCards = document.querySelector('#weather-cards')
 const townName = document.querySelector('#town-name')
-const todayCard = document.querySelector('#today-card');
 
 //api variables
 const myKey = "3c3db5b38137dae929fdc15df313876c";
@@ -26,9 +25,9 @@ async function apiFetch() {
 }
 
 function display3DayResults(data) {
-    townName.innerHTML = `${data.city.name}`;
+    townName.innerHTML = `${data.city.name} three day forecast`;
     
-    const dailyForecasts = data.list.filter(item => item.dt_txt.includes("12:00:00")).slice(0, 4);
+    const dailyForecasts = data.list.filter(item => item.dt_txt.includes("18:00:00")).slice(0, 39);
     
     const formatDate = (dateTxt) => {
         const dateObject = new Date(dateTxt);
@@ -45,7 +44,7 @@ function display3DayResults(data) {
 
         day.textContent = formatDate(dailyForecasts[i].dt_txt).toLocaleDateString('en-US', { weekday: 'long' });
         date.textContent = formatDate(dailyForecasts[i].dt_txt).toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
-        temp.textContent = `${dailyForecasts[i].main.temp}°C`;
+        temp.textContent = `${dailyForecasts[i].main.temp_max}°C`;
 
         icon.setAttribute('src', `https://openweathermap.org/img/wn/${dailyForecasts[i].weather[0].icon}@2x.png`);
         icon.setAttribute('alt', dailyForecasts[i].weather[0].description);

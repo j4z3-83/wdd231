@@ -7,7 +7,6 @@ async function getSpotlightData() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.table(data.members);
             displayMembers(data.members);
         } else {
             throw Error(await response.text());
