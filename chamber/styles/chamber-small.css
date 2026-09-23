@@ -400,6 +400,7 @@ button:hover {
 .joinForm input[type="organization-title"],
 .joinForm input[type="tel"],
 .joinForm input[type="email"],
+.joinForm select,
 .joinForm input[type="organization"],
 .joinForm textarea {
     background-color: var(--primary-color);
@@ -428,7 +429,8 @@ button:hover {
     box-shadow: 1px 1px 4px var(--accent-color);
 }
 
-.joinForm input:required {
+.joinForm input:required,
+.joinForm select:required {
     border-left: solid 8px red;
 }
 

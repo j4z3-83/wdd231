@@ -70,23 +70,35 @@
             <form method="GET" action="thankyou.html" class="joinForm">
                 <fieldset>
                     <legend>Member Information</legend>
-                    <label>First Name*<input title="given-name" type="text" name="fname" autocomplete="given-name" required></label>
-                    <label>Last Name*<input title="family-name" type="text" name="lname" autocomplete="family-name" required></label>
-                    <label>Organization Title*<input title="organization-title" type="text" name="orgtitle" autocomplete="organization-title" required></label>
-                    <label>Mobile Phone<input title="tel" type="tel" name="phone" autocomplete="tel" placeholder="1234441234"></label>
-                    <label>Email<input title="email" type="email" name="email" autocomplete="email" placeholder="name@email.com" required></label>
+                    <label>First Name*<input title="given-name" type="text" name="fname" autocomplete="given-name"
+                            required></label>
+                    <label>Last Name*<input title="family-name" type="text" name="lname" autocomplete="family-name"
+                            required></label>
+                    <label>Organization Title*<input title="organization-title" type="text" name="orgtitle"
+                            autocomplete="organization-title" pattern="[a-zA-Z\s-]{7,}" required></label>
+                    <label>Mobile Phone<input title="tel" type="tel" name="phone" autocomplete="tel"
+                            placeholder="1234441234" required></label>
+                    <label>Email<input title="email" type="email" name="email" autocomplete="email"
+                            placeholder="name@email.com" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Membership Level</legend>
-                    <label><input type="radio" name="membership" value="non-profit">Non-Profit</label>
-                    <label><input type="radio" name="membership" value="bronze">Bronze</label>
-                    <label><input type="radio" name="membership" value="silver">Silver</label>
-                    <label><input type="radio" name="membership" value="gold">Gold</label>
+                    <label>Select Membership Tier
+                        <select name="membership-level" id="membership" required>
+                            <option value="">Please Select</option>
+                            <option value="np">Non-Profit</option>
+                            <option value="bronze">Bronze</option>
+                            <option value="silver">Silver</option>
+                            <option value="gold">Gold</option>
+                        </select>
+                    </label>
                 </fieldset>
                 <fieldset>
                     <legend>Company Information</legend>
-                    <label>Company Name*<input title="organization" type="text" name="orgname" autocomplete="organization" required></label>
-                    <label>Company Description<textarea title="description" rows="5" name="description"></textarea></label>
+                    <label>Company Name*<input title="organization" type="text" name="orgname"
+                            autocomplete="organization" required></label>
+                    <label>Company Description<textarea title="description" rows="5"
+                            name="description"></textarea></label>
                 </fieldset>
                 <input type="submit" value="Become a Member">
             </form>
