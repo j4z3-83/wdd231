@@ -74,8 +74,7 @@
                             required></label>
                     <label>Last Name*<input title="family-name" type="text" name="lname" autocomplete="family-name"
                             required></label>
-                    <label>Organization Title*<input title="organization-title" type="text" name="orgtitle"
-                            autocomplete="organization-title" pattern="[a-zA-Z\s-]{7,}" required></label>
+                    <label>Organization Title*<input title="title should be a minium of 7 characters" type="text" name="orgtitle" autocomplete="organization-title" required pattern="(^[a-zA-Z\s-]{7,}$)"></label>
                     <label>Mobile Phone<input title="tel" type="tel" name="phone" autocomplete="tel"
                             placeholder="1234441234" required></label>
                     <label>Email<input title="email" type="email" name="email" autocomplete="email"
