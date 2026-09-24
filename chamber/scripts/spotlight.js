@@ -28,6 +28,9 @@ const displayMembers = (members) => {
         let pNumber = document.createElement("p");
         let companyURL = document.createElement("p");
         let storeFront = document.createElement("img");
+        let memberLevel = document.createElement("span");
+
+        let memberLevelText = member.membershiplevel === 3 ? "Gold Member" : "Silver Member";
 
         companyName.textContent = `${member.companyname}`
         addressDisplay.innerHTML = `
@@ -44,11 +47,15 @@ const displayMembers = (members) => {
         storeFront.setAttribute('width', '300');
         storeFront.setAttribute('height', '450');
 
+        memberLevel.innerHTML = `
+        <p class="member${member.membershiplevel === 3 ? "Gold" : "Silver"}">${memberLevelText}</p>`;
+
         card.appendChild(companyName);
         card.appendChild(addressDisplay);
         card.appendChild(pNumber);
         card.appendChild(companyURL);
         card.appendChild(storeFront);
+        card.appendChild(memberLevel);
 
         cards.appendChild(card);
     })
