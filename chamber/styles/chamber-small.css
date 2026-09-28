@@ -270,7 +270,6 @@ footer {
     box-shadow: 3px 3px 10px 3px black;
 }
 
-
 /*--- END INDEX MAIN ---*/
 
 
@@ -592,3 +591,46 @@ dialog {
 }
 
 /*--- END THANKYOU MAIN ---*/
+
+/*--- DISCOVER MAIN ---*/
+.places {
+    text-align: center;
+}
+
+#placecards div {
+    margin: 1rem 8px;
+    border: 1px solid var(--accent-color);
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+        "name"
+        "picture"
+        "description"
+        "address";
+}
+
+#placecards div h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+#placecards div img {
+    width: 100%;
+    height: auto;
+    grid-area: picture;
+}
+
+#placecards div address {
+    margin: 1rem 10px;
+    grid-area: address;
+}
+
+#placecards div p {
+    margin: 1rem 10px;
+    grid-area: description;
+}
+
+/*--- END DISCOVER MAIN ---*/
