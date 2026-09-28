@@ -2,35 +2,41 @@ const url = 'https://j4z3-83.github.io/wdd231/chamber/data/members.json';
 
 const cards = document.querySelector('#cards');
 
-async function getSpotlightData() {
-    try {
-        const response = await fetch(url);
-        if (response.ok) {
-            const data = await response.json();
-            displayMembers(data.members);
-        } else {
-            throw Error(await response.text());
-        }
-    } catch (error) {
-        console.log(error);
-    }
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", showGrid);
+
+function showGrid() {
+    display.classList.add("grid");
+    display.classList.remove("list");
+}
+
+listbutton.addEventListener("click", showList);
+
+function showList() {
+    display.classList.add("list");
+    display.classList.remove("grid");
+}
+
+
+async function getMemberData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.table(data.members); // temporary testing of data response
+
+    displayMembers(data.members);
 }
 
 const displayMembers = (members) => {
-
-    const filteredMembers = members.filter(member => member.membershiplevel >= 2)
-    const shuffleMembers = shuffle(filteredMembers)
-
-    shuffleMembers.forEach((member) => {
+    members.forEach((member) => {
         let card = document.createElement("section");
         let companyName = document.createElement("h2");
         let addressDisplay = document.createElement("container");
         let pNumber = document.createElement("p");
         let companyURL = document.createElement("p");
         let storeFront = document.createElement("img");
-        let memberLevel = document.createElement("span");
-
-        let memberLevelText = member.membershiplevel === 3 ? "Gold Member" : "Silver Member";
 
         companyName.textContent = `${member.companyname}`
         addressDisplay.innerHTML = `
@@ -47,29 +53,14 @@ const displayMembers = (members) => {
         storeFront.setAttribute('width', '300');
         storeFront.setAttribute('height', '450');
 
-        memberLevel.innerHTML = `
-        <p class="member${member.membershiplevel === 3 ? "Gold" : "Silver"}">${memberLevelText}</p>`;
-
         card.appendChild(companyName);
         card.appendChild(addressDisplay);
         card.appendChild(pNumber);
         card.appendChild(companyURL);
         card.appendChild(storeFront);
-        card.appendChild(memberLevel);
 
         cards.appendChild(card);
     })
 }
 
-function shuffle(members) {
-    for (let i = members.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [members[i], members[j]] = [members[j], members[i]];
-    }
-    const shuffled = members.slice(0, 3);
-    return shuffled;
-}
-
-
-
-getSpotlightData();
+getMemberData();
