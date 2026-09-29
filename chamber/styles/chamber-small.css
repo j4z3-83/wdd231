@@ -605,11 +605,13 @@ dialog {
     overflow: hidden;
 
     display: grid;
+    justify-items: center;
     grid-template-areas:
         "name"
         "picture"
         "description"
-        "address";
+        "address"
+        "button";
 }
 
 #placecards div h2 {

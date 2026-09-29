@@ -146,7 +146,8 @@
         grid-template-areas:
             "picture name"
             "picture description"
-            "picture address";
+            "picture address"
+            "picture button";
     }
 
     #placecards div img {
