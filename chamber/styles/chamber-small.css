@@ -625,6 +625,10 @@ dialog {
     grid-area: picture;
 }
 
+#placecards div img:hover {
+    box-shadow: 0 0 50px black;
+}
+
 #placecards div address {
     margin: 1rem 10px;
     grid-area: address;
