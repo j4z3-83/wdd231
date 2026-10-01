@@ -1,0 +1,60 @@
+@media screen and (min-width: 38rem) {
+
+    header {
+        padding-left: 60px;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .on-screen-menu {
+        display: block;
+    }
+
+    .on-screen-menu a {
+        color: var(--text-color1);
+        background-color: rgba(0, 0, 0, .3);
+        border-radius: 3px;
+        margin-right: 5px;
+        padding: 5px 10px;
+        font-size: 16px;
+        transition: 0.2s;
+        text-decoration: none;
+    }
+
+    .on-screen-menu a.active {
+        background: var(--primary-color);
+        border-radius: 2px;
+    }
+
+    .on-screen-menu a:hover {
+        background: var(--primary-color);
+        border-radius: 2px;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+
+    .list .item .content {
+        top: 50%;
+        left: 60px;
+        width: 400px;
+    }
+
+    .content .title,
+    .content .name {
+        font-size: 70px;
+    }
+
+    .content .btn button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .arrows {
+        top: 82.5%;
+    }
+
+}

@@ -18,52 +18,170 @@
     <link rel="stylesheet" href="styles/project-medium.css">
     <link rel="stylesheet" href="styles/project-large.css">
 
-    <script src="scripts/index.js" defer></script>
+    <script src="scripts/carousel.js" defer></script>
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/hamburgerbutton.js" defer></script>
 
     <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header id="page-head">
+        <img src="images/logo.png" alt="" class="logo-img">
+        <nav class="on-screen-menu">
+            <a href="index.html" class="active">Home</a>
+            <a href="Request.html">Request a Title</a>
+            <a href="references.html">References</a>
+        </nav>
 
-        <button id="menu" aria-label="Menu"></button>
-
+        <div class="off-screen-menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Request.html">Request a Title</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </div>
+        <nav class="hamburger">
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <div class="titles">
-            <a href="https://characterprofile.fandom.com/wikFullmetal_Alchemist">
-                <img src="images/fullmetalalchemist.png" alt="">
-            </a>
-            <a href="https://characterprofile.fandom.com/wikFullmetal_Alchemist">
-                <img class="titles" src="images/naruto.png" alt="">
-            </a>
-            <a href="https://characterprofile.fandom.com/wikFullmetal_Alchemist">
-                <img class="titles" src="images/deathnote.png" alt="">
-            </a>
-            <a href="https://characterprofile.fandom.com/wikFullmetal_Alchemist">
-                <img class="titles" src="images/attackontitan.png" alt="">
-            </a>
+        <div class="carousel">
+
+            <div class="list">
+
+                <div class="item" style="background-image: url(images/assassinationclassroom.webp);">
+                    <div class="content">
+                        <div class="title">Assassination Classroom</div>
+                        <div class="name">Yusei Matsui</div>
+                        <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tenetur, impedit
+                            neque voluptate sequi, cupiditate magni consequatur totam, deleniti ab eligendi consectetur
+                            optio iusto. Nulla dolorem natus ea recusandae aliquam!</div>
+                        <div class="btn">
+                            <a href="assassin.html">See Volumes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(images/attackontitan.webp);">
+                    <div class="content">
+                        <div class="title">Attack on Titan</div>
+                        <div class="name">Hajime Isayama</div>
+                        <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tenetur, impedit
+                            neque voluptate sequi, cupiditate magni consequatur totam, deleniti ab eligendi consectetur
+                            optio iusto. Nulla dolorem natus ea recusandae aliquam!</div>
+                        <div class="btn">
+                            <a href="attack.html">See Volumes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(images/bleach.webp);">
+                    <div class="content">
+                        <div class="title">Bleach</div>
+                        <div class="name">Tite Kubo</div>
+                        <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tenetur, impedit
+                            neque voluptate sequi, cupiditate magni consequatur totam, deleniti ab eligendi consectetur
+                            optio iusto. Nulla dolorem natus ea recusandae aliquam!</div>
+                        <div class="btn">
+                            <a href="bleach.html">See Volumes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(images/deathnote.webp);">
+                    <div class="content">
+                        <div class="title">Deathnote</div>
+                        <div class="name">Tsugumi Ohba, Takeshi Obata</div>
+                        <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tenetur, impedit
+                            neque voluptate sequi, cupiditate magni consequatur totam, deleniti ab eligendi consectetur
+                            optio iusto. Nulla dolorem natus ea recusandae aliquam!</div>
+                        <div class="btn">
+                            <a href="deathnote.html">See Volumes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(images/fullmetalalchemist.webp);">
+                    <div class="content">
+                        <div class="title">Fullmetal Alchemist</div>
+                        <div class="name">Hiromu Arakawa</div>
+                        <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tenetur, impedit
+                            neque voluptate sequi, cupiditate magni consequatur totam, deleniti ab eligendi consectetur
+                            optio iusto. Nulla dolorem natus ea recusandae aliquam!</div>
+                        <div class="btn">
+                            <a href="fullmetal.html">See Volumes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(images/naruto.webp);">
+                    <div class="content">
+                        <div class="title">Naruto</div>
+                        <div class="name">Masashi Kishimoto</div>
+                        <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tenetur, impedit
+                            neque voluptate sequi, cupiditate magni consequatur totam, deleniti ab eligendi consectetur
+                            optio iusto. Nulla dolorem natus ea recusandae aliquam!</div>
+                        <div class="btn">
+                            <a href="naruto.html">See Volumes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(images/tokyoghoul.webp);">
+                    <div class="content">
+                        <div class="title">Tokyo Ghoul</div>
+                        <div class="name">Sui Ishida</div>
+                        <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tenetur, impedit
+                            neque voluptate sequi, cupiditate magni consequatur totam, deleniti ab eligendi consectetur
+                            optio iusto. Nulla dolorem natus ea recusandae aliquam!</div>
+                        <div class="btn">
+                            <a href="tokyo.html">See Volumes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
+
+        <!-- next prev buttons -->
+        <div class="arrows">
+            <button class="prev">&#8656;</button>
+            <button class="next">&#8658;</button>
+        </div>
+
+        <!-- time running -->
+        <div class="timerunning"></div>
 
 
     </main>
 
-    <footer class="index">
-        <nav class="sociallinks">
-            <a href="https://github.com/j4z3-83">
-                <img src="images/github.svg" alt="github logo">
-            </a>
-            <a href="https://www.linkedin.com/feed/">
-                <img src="images/linkedin.svg" alt="linkedin logo">
-            </a>
-        </nav>
-        <p class="projectinfo">
+    <footer>
+        <p class="">
             WDD231 Class Project<br>
             Jared Aldridge<br>
-            <span id="currentYear"></span> Coaldale CHamber of Commerce<br>
+            <span id="currentYear"></span> The Manga db<br>
             <span id="lastModified"></span>
         </p>
+        <nav class="sociallinks">
+            <a href="https://github.com/j4z3-83">
+                <img src="images/github.svg" class="colored-svg" alt="github logo">
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+                <img src="images/linkedin.svg" class="colored-svg" alt="linkedin logo">
+            </a>
+        </nav>
     </footer>
 </body>
 

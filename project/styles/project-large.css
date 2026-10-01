@@ -1,0 +1,20 @@
+@media screen and (min-width: 64rem) {
+
+    header{
+        padding-left: 100px;
+    }
+
+    .list .item .content{
+        top: 55%;
+        left: 100px;
+    }
+
+    .content .title, .content .name{
+        font-size: 90px;
+    }
+
+    .content .des{
+        font-size: 18px;
+    }
+
+}
