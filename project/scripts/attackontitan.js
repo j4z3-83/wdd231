@@ -18,31 +18,13 @@ async function getVolumeData() {
 function displayVolumes(volumes) {
     volumes.forEach((volume) => {
         let card = document.createElement("div");
-        let modalCard = document.createElement("div")
-        let mangaTitle = document.createElement("h1");
-        let writer = document.createElement("p");
-        let illustrator = document.createElement("p");
-        let volumeNumber = document.createElement("h2");
-        let volumeTitle = document.createElement("h3");
         let volumePicture = document.createElement("img");
 
-        mangaTitle.textContent = `${volume.mangatitle}`;
-        writer.textContent = `${volume.writer}`;
-        illustrator.textContent = `${volume.illustrator}`;
-        volumeNumber.textContent = `${volume.volumenumber}`;
-        volumeTitle.textContent = `${volume.volumetitle}`;
         volumePicture.setAttribute('src', `${volume.volumecover}`);
         volumePicture.setAttribute('alt', `cover of ${volume.volumenumber}`)
         volumePicture.setAttribute('loading', 'lazy')
         volumePicture.setAttribute('width', '150');
         volumePicture.setAttribute('height', '200');
-
-        modalCard.appendChild(volumePicture);
-        modalCard.appendChild(mangaTitle);
-        modalCard.appendChild(writer);
-        modalCard.appendChild(illustrator);
-        modalCard.appendChild(volumeNumber);
-        modalCard.appendChild(volumeTitle);
 
         card.appendChild(volumePicture);
 
@@ -52,11 +34,12 @@ function displayVolumes(volumes) {
             modalTitle.textContent = `${volume.mangatitle}`;
 
             modalBody.innerHTML = `
-            <p><strong>Written by:</strong> ${writer}</p>
-            <p><strong>Illustrated by:</strong> ${illustrator}</p>
-            <p><strong>Volume number:</strong> ${volumeNumber}</p>
-            <p><strong>Volume title:</strong> ${volumeTitle}</p>
-            <img src=${volume.volumecover} alt="volume ${volumeNumber} cover" width="250" height="400">
+            <p><strong>Written by:</strong> ${volume.writer}</p>
+            <p><strong>Illustrated by:</strong> ${volume.illustrator}</p>
+            <p><strong>Volume number:</strong> ${volume.volumenumber}</p>
+            <img src=${volume.volumecover} alt="volume ${volume.volumenumber} cover" width="250" height="400">
+            <p><strong>Volume title:</strong> ${volume.volumetitle}</p>
+            <p>${volume.volumedsc}</p>
             `;
 
             modal.classList.add('show');
