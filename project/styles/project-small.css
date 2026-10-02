@@ -385,12 +385,21 @@ footer p {
 
 /*--- MAIN SECTION ---*/
 
-.assasination-classroom,
-.attack-on-titan,
-.death-note {
+.assasination-classroom {
+    background-image: url("https://j4z3-83.github.io/wdd231/project/images/assassinationclassroom.webp");
+    background-attachment: scroll;
+}
+
+.attack-on-titan {
     background-image: url("https://j4z3-83.github.io/wdd231/project/images/attackontitan.webp");
     background-attachment: scroll;
 }
+
+.death-note {
+    background-image: url("https://j4z3-83.github.io/wdd231/project/images/deathnote.webp");
+    background-attachment: scroll;
+}
+
 
 .manga-content {
     position: relative;
