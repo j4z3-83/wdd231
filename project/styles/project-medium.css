@@ -42,17 +42,17 @@
         left: 60px;
         width: 400px;
     }
-    
+
     .content .title,
     .content .name {
         font-size: 70px;
     }
-    
+
     .content .btn button {
         padding: 10px 15px;
         font-size: 16px;
     }
-    
+
     .arrows {
         top: 82.5%;
     }
@@ -80,6 +80,15 @@
     #volumecards div img {
         align-self: center;
         cursor: pointer;
+    }
+
+    .modal-content {
+        width: 600px;
+        margin: -160px;
+        
+        position: sticky;
+        top: 0;
+        left: 0;
     }
 
 }
