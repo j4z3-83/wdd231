@@ -25,7 +25,7 @@ function displayVolumes(volumes) {
         illustrator.textContent = `${volume.illustrator}`;
         volumeNumber.textContent = `${volume.volumenumber}`;
         volumeTitle.textContent = `${volume.volumetitle}`;
-        volumePicture.setAttribute('src', "");
+        volumePicture.setAttribute('src', `${volume.volumecover}`);
         volumePicture.setAttribute('alt', `cover of ${volume.volumenumber}`)
         volumePicture.setAttribute('loading', 'lazy')
         volumePicture.setAttribute('width', '300');

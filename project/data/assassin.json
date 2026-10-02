@@ -7,7 +7,7 @@
             "volumenumber": "1",
             "volumetitle": "Time For Assassination",
             "releasedate": "12-02-2014",
-            "volumecover": "./images/assassinationvol01.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol01.webp"
         },
         {
             "mangatitle": "Assassination Classroom",
@@ -16,7 +16,7 @@
             "volumenumber": "2",
             "volumetitle": "Time For Grown-Ups",
             "releasedate": "02-03-2015",
-            "volumecover": "./images/assassinationvol02.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol02.webp"
         },
         {
             "mangatitle": "Assassination Classroom",
@@ -25,7 +25,7 @@
             "volumenumber": "3",
             "volumetitle": "Time For A Transfer",
             "releasedate": "04-07-2015",
-            "volumecover": "./images/assassinationvol03.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol03.webp"
         },
         {
             "mangatitle": "Assassination Classroom",
@@ -34,7 +34,7 @@
             "volumenumber": "4",
             "volumetitle": "Time To Face The Unbelievable",
             "releasedate": "06-02-2015",
-            "volumecover": "./images/assassinationvol04.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol04.webpp"
         },
         {
             "mangatitle": "Assassination Classroom",
@@ -43,7 +43,7 @@
             "volumenumber": "5",
             "volumetitle": "Time To Show Off A Hidden Talent",
             "releasedate": "08-04-2015",
-            "volumecover": "./images/assassinationvol05.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol05.webp"
         },
         {
             "mangatitle": "Assassination Classroom",
@@ -52,7 +52,7 @@
             "volumenumber": "6",
             "volumetitle": "Swim Time",
             "releasedate": "10-06-2015",
-            "volumecover": "./images/assassinationvol06.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol06.webp"
         },
         {
             "mangatitle": "Assassination Classroom",
@@ -61,7 +61,7 @@
             "volumenumber": "7",
             "volumetitle": "On Island Time",
             "releasedate": "12-08-2015",
-            "volumecover": "./images/assassinationvol07.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol07.webp"
         },
         {
             "mangatitle": "Assassination Classroom",
@@ -70,7 +70,7 @@
             "volumenumber": "8",
             "volumetitle": "Time For An Opportunity",
             "releasedate": "02-02-2016",
-            "volumecover": "./images/assassinationvol08.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol08.webp"
         },
         {
             "mangatitle": "Assassination Classroom",
@@ -79,7 +79,7 @@
             "volumenumber": "9",
             "volumetitle": "A Shocking Time",
             "releasedate": "04-05-2016",
-            "volumecover": "./images/assassinationvol09.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol09.webp"
         },
         {
             "mangatitle": "Assassination Classroom",
@@ -88,7 +88,7 @@
             "volumenumber": "10",
             "volumetitle": "Time For Robbery",
             "releasedate": "06-07-2016",
-            "volumecover": "./images/assassinationvol10.webp"
+            "volumecover": "https://github.com/j4z3-83/wdd231/blob/main/project/images/assassinationvol10.webp"
         }
     ]
 }
