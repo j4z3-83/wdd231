@@ -42,34 +42,44 @@
         left: 60px;
         width: 400px;
     }
-
+    
     .content .title,
     .content .name {
         font-size: 70px;
     }
-
+    
     .content .btn button {
         padding: 10px 15px;
         font-size: 16px;
     }
-
+    
     .arrows {
         top: 82.5%;
     }
 
-    .mangacontent {
+    .manga-content {
         top: 50%;
         left: 60px;
-        width: 400px;
     }
 
-    .mangacontent .title,
-    .mangacontent .name {
+    .manga-content .manga-title,
+    .manga-content .manga-name {
         font-size: 70px;
     }
 
-    .mangacontent .des {
-        font-size: 16px;
+
+    #volumecards div {
+        grid-template-areas:
+            "picture manga"
+            "picture writer"
+            "picture illustrator"
+            "picture volume"
+            "picture title";
+    }
+
+    #volumecards div img {
+        align-self: center;
+        cursor: pointer;
     }
 
 }

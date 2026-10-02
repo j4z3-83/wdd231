@@ -1,6 +1,11 @@
 const url = 'https://j4z3-83.github.io/wdd231/project/data/assassin.json';
 
-const cards = document.querySelector("#volumecards");
+const cards = document.getElementById('volumeCards'); 
+const modal = document.getElementById('infoModal');
+const closeBtn = document.querySelector('.close-btn');
+
+const modalTitle = document.getElementById('modalTitle');
+const modalBody = document.getElementById('modalBody');
 
 async function getVolumeData() {
     const response = await fetch(url);
@@ -10,9 +15,10 @@ async function getVolumeData() {
     displayVolumes(data.volumes);
 }
 
-function displayVolumes(volumes) {
+function displayVolumes (volumes) {
     volumes.forEach((volume) => {
         let card = document.createElement("div");
+        let modalCard = document.createElement("div")
         let mangaTitle = document.createElement("h1");
         let writer = document.createElement("p");
         let illustrator = document.createElement("p");
@@ -28,18 +34,39 @@ function displayVolumes(volumes) {
         volumePicture.setAttribute('src', `${volume.volumecover}`);
         volumePicture.setAttribute('alt', `cover of ${volume.volumenumber}`)
         volumePicture.setAttribute('loading', 'lazy')
-        volumePicture.setAttribute('width', '300');
+        volumePicture.setAttribute('width', '150');
         volumePicture.setAttribute('height', '200');
 
-        card.appendChild(volumePicture);
-        card.appendChild(mangaTitle);
-        card.appendChild(writer);
-        card.appendChild(illustrator);
-        card.appendChild(volumeNumber);
-        card.appendChild(volumeTitle);
+        modalCard.appendChild(volumePicture);
+        modalCard.appendChild(mangaTitle);
+        modalCard.appendChild(writer);
+        modalCard.appendChild(illustrator);
+        modalCard.appendChild(volumeNumber);
+        modalCard.appendChild(volumeTitle);
 
+        card.appendChild(volumePicture);      
+        
         cards.appendChild(card);
+
+        card.addEventListener("click", () => {        
+            modalTitle.textContent = `${volume.mangatitle}`;
+
+            modalBody.innerHTML = `
+            <p><strong>Written by:</strong> ${volume.writer}</p>
+            <p><strong>Illustrated by:</strong> ${volume.illustrator}</p>
+            <p><strong>Volume number:</strong> ${volume.volumenumber}</p>
+            <p><strong>Volume title:</strong> ${volume.volumetitle}</p>
+            <img src=${volume.volumecover} alt="volume ${volume.volumenumber} cover" width="250" height="400">
+            <p>${volume.dsc}</p>
+            `;
+            
+            modal.classList.add('show');
+        });
     });
 }
+
+closeBtn.addEventListener("click", () => {
+    modal.classList.remove('show');
+});
 
 getVolumeData();
