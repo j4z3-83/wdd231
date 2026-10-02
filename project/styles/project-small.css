@@ -385,29 +385,6 @@ footer p {
 
 /*--- MAIN SECTION ---*/
 
-.mangacontent {
-    position: absolute;
-    top: 40%;
-    left: 25px;
-    transform: translateY(-50%);
-    width: 300px;
-    text-align: left;
-    color: var(--text-color1);
-}
-
-.mangacontent .title {
-    font-size: 40px;
-    text-transform: uppercase;
-    color: var(--primary-color);
-    font-weight: bold;
-    line-height: 1;
-}
-
-.mangacontent .name {
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
-    color: var(--accent-color);
-    text-shadow: 3px 4px 4px rgba(119, 193, 225, 0.8);
+.mangas{
+    background-image: url("images/assassinationclassroom.webp");
 }
