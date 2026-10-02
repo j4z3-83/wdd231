@@ -1,130 +1,94 @@
 {
     "volumes": [
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "1",
             "volumetitle": "Time For Assassination",
             "releasedate": "12-02-2014",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/0/0f/Volume_01.png/revision/latest?cb=20121026141218"
+            "volumecover": "./images/assassinationvol01.webp"
         },
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "2",
             "volumetitle": "Time For Grown-Ups",
             "releasedate": "02-03-2015",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/6/68/Volume_02.png/revision/latest?cb=20121219201018"
+            "volumecover": "./images/assassinationvol02.webp"
         },
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "3",
             "volumetitle": "Time For A Transfer",
             "releasedate": "04-07-2015",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/5/5c/Volume_03.png/revision/latest?cb=20130224003904"
+            "volumecover": "./images/assassinationvol03.webp"
         },
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "4",
             "volumetitle": "Time To Face The Unbelievable",
             "releasedate": "06-02-2015",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/e/ef/Volume_04.png/revision/latest?cb=20130425042106"
+            "volumecover": "./images/assassinationvol04.webp"
         },
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "5",
             "volumetitle": "Time To Show Off A Hidden Talent",
             "releasedate": "08-04-2015",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/c/cf/Volume_05.png/revision/latest?cb=20130629014037"
+            "volumecover": "./images/assassinationvol05.webp"
         },
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "6",
             "volumetitle": "Swim Time",
             "releasedate": "10-06-2015",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/2/2e/Volume_06.png/revision/latest?cb=20181009232516"
+            "volumecover": "./images/assassinationvol06.webp"
         },
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "7",
             "volumetitle": "On Island Time",
             "releasedate": "12-08-2015",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/6/6e/Volume_07.jpg/revision/latest?cb=20131231134414"
+            "volumecover": "./images/assassinationvol07.webp"
         },
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "8",
             "volumetitle": "Time For An Opportunity",
             "releasedate": "02-02-2016",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/8/80/Volume_08.jpg/revision/latest?cb=20140301071615"
+            "volumecover": "./images/assassinationvol08.webp"
         },
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "9",
             "volumetitle": "A Shocking Time",
             "releasedate": "04-05-2016",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/5/55/Volume_9.jpg/revision/latest?cb=20140715142324"
+            "volumecover": "./images/assassinationvol09.webp"
         },
         {
+            "mangatitle": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "Yusei Matsui",
             "volumenumber": "10",
             "volumetitle": "Time For Robbery",
             "releasedate": "06-07-2016",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/8/8b/Volume_10.jpg/revision/latest?cb=20140725220831"
-        },
-        {
-            "volumenumber": "11",
-            "volumetitle": "Time For Sports Day",
-            "releasedate": "08-02-2016",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/3/34/Volume_11.jpg/revision/latest?cb=20141226143828"
-        },
-        {
-            "volumenumber": "12",
-            "volumetitle": "Time For The Grim Reaper",
-            "releasedate": "10-05-2016",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/a/a9/Volume_12.jpg/revision/latest?cb=20141226143833"
-        },
-        {
-            "volumenumber": "13",
-            "volumetitle": "Time For A Little Career Counseling",
-            "releasedate": "12-06-2016",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/e/e4/60c5e5481571b7801f7262ff9838b867.jpg/revision/latest?cb=20150305220144"
-        },
-        {
-            "volumenumber": "14",
-            "volumetitle": "Time For A Teacher Exam",
-            "releasedate": "02-07-2017",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/a/a3/Volume_14.jpg/revision/latest?cb=20150502210707"
-        },
-        {
-            "volumenumber": "15",
-            "volumetitle": "Time For A Storm",
-            "releasedate": "04-04-2017",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/7/7c/Volume_15.jpg/revision/latest?cb=20150626140519"
-        },
-        {
-            "volumenumber": "16",
-            "volumetitle": "Time For The Past",
-            "releasedate": "06-06-2017",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/7/7b/Ansatsu016.jpg/revision/latest?cb=20151113134030"
-        },
-        {
-            "volumenumber": "17",
-            "volumetitle": "Time For A Breakup",
-            "releasedate": "08-01-2017",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/b/ba/4963363-17.jpg/revision/latest?cb=20160306154243"
-        },
-        {
-            "volumenumber": "18",
-            "volumetitle": "Time For Valentine's Day",
-            "releasedate": "10-03-2017",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/f/f0/5081046-18.jpg/revision/latest?cb=20160306154309"
-        },
-        {
-            "volumenumber": "19",
-            "volumetitle": "Time To Go To School",
-            "releasedate": "12-05-2017",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/e/e8/Vol_19_cover.jpg/revision/latest?cb=20160329125205"
-        },
-        {
-            "volumenumber": "20",
-            "volumetitle": "Time To Graduate",
-            "releasedate": "02-06-2018",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/4/45/Volume_20_cover.jpg/revision/latest?cb=20160605145126"
-        },
-        {
-            "volumenumber": "21",
-            "volumetitle": "Time to Say Thank You",
-            "releasedate": "04-03-2018",
-            "volumecover": "https://static.wikia.nocookie.net/assassinationclassroom/images/f/f9/Vol_21_%28final_cover%29.jpg/revision/latest?cb=20160628172321"
+            "volumecover": "./images/assassinationvol10.webp"
         }
     ]
 }

@@ -1,31 +1,40 @@
-var nextBtn = document.querySelector('.next'),
-    prevBtn = document.querySelector('.prev'),
-    carousel = document.querySelector('.carousel'),
-    list = document.querySelector('.list'),
-    item = document.querySelectorAll('.item'),
-    runningTime = document.querySelector('.carousel .timeRunning');
+const nextBtn = document.querySelector('.next');
+const prevBtn = document.querySelector('.prev');
+const carousel = document.querySelector('.carousel');
+const list = document.querySelector('.list');
+const item = document.querySelectorAll('.item');
+const runningTime = document.querySelector('.carousel .timeRunning');
 
+let runNextAuto;
 let timeRunning = 3000;
 let timeAutoNext = 7000;
 
-nextBtn.onclick = function () {
-    showSlider('next');
-}
+if (nextBtn && prevBtn) {
 
-prevBtn.onclick = function () {
-    showSlider('prev');
+    nextBtn.onclick = function () {
+        showSlider('next');
+    }
+
+    prevBtn.onclick = function () {
+        showSlider('prev');
+    }
+
+    runNextAuto = setTimeout(() => {
+        nextBtn.click()
+    }, timeAutoNext);
+
+    resetTimeAnimation();
 }
 
 let runTimeOut;
-let runNextAuto = setTimeout(() => {
-    nextBtn.click()
-}, timeAutoNext);
 
 function resetTimeAnimation() {
-    runningTime.style.animation = 'none';
-    runningTime.offsetHeight;
-    runningTime.style.animation = null;
-    runningTime.style.animation = 'runningTime 7s linear 1 forwards';
+    if (runningTime && runningTime.style) {
+        timeRunning.style.animation = 'none';
+        timeRunning.offsetHeight;
+        timeRunning.style.animation = null;
+        timeRunning.style.animation = 'runningTime 7s linear 1 forwards';
+    }
 }
 
 function showSlider(type) {
@@ -53,4 +62,3 @@ function showSlider(type) {
     resetTimeAnimation();
 }
 
-resetTimeAnimation();

@@ -1,19 +1,34 @@
 @media screen and (min-width: 64rem) {
 
-    header{
+    header {
         padding-left: 100px;
     }
 
-    .list .item .content{
+    .list .item .content {
         top: 55%;
         left: 100px;
     }
 
-    .content .title, .content .name{
+    .content .title,
+    .content .name {
         font-size: 90px;
     }
 
-    .content .des{
+    .content .des {
+        font-size: 18px;
+    }
+
+    .mangacontent {
+        top: 55%;
+        left: 100px;
+    }
+
+    .mangacontent .title,
+    .mangacontent .name {
+        font-size: 90px;
+    }
+
+    .mangacontent .des {
         font-size: 18px;
     }
 

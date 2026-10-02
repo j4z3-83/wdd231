@@ -4,7 +4,7 @@
         padding-left: 60px;
     }
 
-    .hamburger{
+    .hamburger {
         display: none;
     }
 
@@ -55,6 +55,21 @@
 
     .arrows {
         top: 82.5%;
+    }
+
+    .mangacontent {
+        top: 50%;
+        left: 60px;
+        width: 400px;
+    }
+
+    .mangacontent .title,
+    .mangacontent .name {
+        font-size: 70px;
+    }
+
+    .mangacontent .des {
+        font-size: 16px;
     }
 
 }
