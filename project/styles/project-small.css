@@ -385,12 +385,10 @@ footer p {
 
 /*--- MAIN SECTION ---*/
 
-.assasination-classroom {
+.assasination-classroom,
+.attackontitan,
+.death-note {
     background-image: url("https://j4z3-83.github.io/wdd231/project/images/assassinationclassroom.webp");
-    background-attachment: scroll;
-}
-.attack-on-titan {
-    background-image: url("https://j4z3-83.github.io/wdd231/project/images/attackontitan.webp");
     background-attachment: scroll;
 }
 
@@ -401,14 +399,14 @@ footer p {
     text-align: left;
 }
 
-.manga-content .manga-title, 
-.manga-content .manga-name{
+.manga-content .manga-title,
+.manga-content .manga-name {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1;
 
-    }
+}
 
 .manga-content .manga-title {
     color: var(--primary-color);
