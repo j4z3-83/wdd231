@@ -400,6 +400,21 @@ footer p {
     background-attachment: scroll;
 }
 
+.fullmetal-alchemist {
+    background-image: url("https://j4z3-83.github.io/wdd231/project/images/fullmetalalchemist.webp");
+    background-attachment: scroll;
+}
+
+.nisekoi {
+    background-image: url("https://j4z3-83.github.io/wdd231/project/images/nisekoi.webp");
+    background-attachment: scroll;
+}
+
+.tokyo-ghoul {
+    background-image: url("https://j4z3-83.github.io/wdd231/project/images/tokyoghoul.webp");
+    background-attachment: scroll;
+}
+
 
 .manga-content {
     position: relative;
@@ -477,7 +492,7 @@ footer p {
     transform: translateX(-50%);
     border-radius: 35px;
     border: 2px solid var(--accent-color);
-    box-shadow: 5px 5px 5px var(--accent-color);    
+    box-shadow: 5px 5px 5px var(--accent-color);
     margin: .25rem 0;
 }
 
