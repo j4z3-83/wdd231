@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jared Aldridge">
+    <meta name="Chamber of Commerce" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jared Aldridge, WDD231, Chamber of Commerce website">
+    <title>Chamber of Commerce Join Page</title>
+
+    <meta property="og:title" content="Town of Coaldale Chamber of Commerce business join page">
+    <meta property="og:description" content="Town of Coaldale Chamber of Commerce business join page">
+    <meta property="og:image" content="https://j4z3-83.github.io/wdd231/chamber/images/coaldalefulllogo.svg">
+    <meta property="og:url" content="https://j4z3-83.github.io/wdd231/chamber/index.html">
+
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/chamber-medium.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+
+    <script src="scripts/scripts.js" type="module"></script>
+    <script src="scripts/join.js" defer></script>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture class="logo">
+            <img src="images/coaldalefulllogo.svg" alt="j4z logo">
+        </picture>
+        <button id="menu" aria-label="Menu"></button>
+        <nav class="nav" id="navigation">
+            <ul class="navigationul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Join the Coaldale Chamber of Commerce</h1>
+        <div class="form">
+            <div class="box-container">
+                <div class="box">
+                    <h2>Non-Profit Membership</h2>
+                    <button class="nonprofit" id="npButton">Learn More</button>
+                </div>
+                <div class="box">
+                    <h2>Bronze Membership</h2>
+                    <button class="bronze" id="bronzeButton">Learn More</button>
+                </div>
+                <div class="box">
+                    <h2>Silver Membership</h2>
+                    <button class="silver" id="silverButton">Learn More</button>
+                </div>
+                <div class="box">
+                    <h2>Gold Membership</h2>
+                    <button class="gold" id="goldButton">Learn More</button>
+                </div>
+            </div>
+            <form method="GET" action="thankyou.html" class="joinForm">
+                <fieldset>
+                    <legend>Member Information</legend>
+                    <label>First Name*<input title="given-name" type="text" name="fname" autocomplete="given-name"
+                            required></label>
+                    <label>Last Name*<input title="family-name" type="text" name="lname" autocomplete="family-name"
+                            required></label>
+                    <label>Organization Title*<input title="title should be a minium of 7 characters" type="text"
+                            name="orgtitle" autocomplete="organization-title" required
+                            pattern="(^[a-zA-Z\s-]{7,}$)"></label>
+                    <label>Mobile Phone<input title="tel" type="tel" name="phone" autocomplete="tel"
+                            placeholder="1234441234" required></label>
+                    <label>Email<input title="email" type="email" name="email" autocomplete="email"
+                            placeholder="name@email.com" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label>Select Membership Tier
+                        <select name="membership-level" id="membership" required>
+                            <option value="">Please Select</option>
+                            <option value="np">Non-Profit</option>
+                            <option value="bronze">Bronze</option>
+                            <option value="silver">Silver</option>
+                            <option value="gold">Gold</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Company Information</legend>
+                    <label>Company Name*<input title="organization" type="text" name="orgname"
+                            autocomplete="organization" required></label>
+                    <label>Company Description<textarea title="description" rows="5"
+                            name="description"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Become a Member">
+                <input type="hidden" id="timestamp" name="timestamp">
+            </form>
+        </div>
+        <dialog id="memberships">
+            <div id="modalContent"></div>
+            <button id="closeButton">Close</button>
+        </dialog>
+    </main>
+    <footer>
+        <p class="chamberaddress">
+            Coaldale Chamber of Commerce<br>
+            1801 20th Ave #200,<br>
+            Coaldale, AB<br>
+            T1M 1N1
+        </p>
+        <nav class="sociallinks">
+            <a href="https://github.com/j4z3-83">
+                <img src="images/github.svg" alt="github logo">
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+                <img src="images/linkedin.svg" alt="linkedin logo">
+            </a>
+        </nav>
+        <p class="projectinfo">
+            WDD231 Class Project<br>
+            Jared Aldridge<br>
+            <span id="currentYear"></span> Coaldale CHamber of Commerce<br>
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+
+</body>
+
+</html>
