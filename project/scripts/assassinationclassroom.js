@@ -1,4 +1,5 @@
-const url = 'https://j4z3-83.github.io/wdd231/project/data/assassinationclassroom.json';
+import { getManga } from mangas.mjs;
+const url = getManga;
 
 const cards = document.getElementById('volumeCards');
 const modal = document.getElementById('infoModal');

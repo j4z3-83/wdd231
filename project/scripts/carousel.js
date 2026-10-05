@@ -3,6 +3,8 @@ const prevBtn = document.querySelector('.prev');
 const carousel = document.querySelector('.carousel');
 const list = document.querySelector('.list');
 const item = document.querySelectorAll('.item');
+const volumeBtn = document.querySelector('.btn');
+const managTitle = document.querySelector('.title');
 const runningTime = document.querySelector('.carousel .timeRunning');
 
 let runNextAuto;
@@ -61,4 +63,6 @@ function showSlider(type) {
 
     resetTimeAnimation();
 }
+
+
 
