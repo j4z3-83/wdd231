@@ -1,0 +1,102 @@
+{
+    "members": [
+        {
+            "companyname": "Nevermind Vinrtage",
+            "companyaddress": {
+                "street": "123 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companynumber": "(123) 456 7890",
+            "companyurl": "www.nevermindvintage.ca",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/storenevermindvintage.webp",
+            "membershiplevel": 1
+        },
+        {
+            "companyname": "Jacaranda",
+            "companyaddress": {
+                "street": "456 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companynumber": "(123) 456 7890",
+            "companyurl": "www.jacaranda.ca",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/storejacaranda.webp",
+            "membershiplevel": 3
+        },
+        {
+            "companyname": "Bizuteria",
+            "companyaddress": {
+                "street": "789 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companynumber": "(123) 456 7890",
+            "companyurl": "www.bizuteria.ca",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/storebizuteria.webp",
+            "membershiplevel": 3
+        },
+        {
+            "companyname": "Meet Me There",
+            "companyaddress": {
+                "street": "321 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companynumber": "(123) 456 7890",
+            "companyurl": "www.Meetmethere.ca",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/storemeetmethere.webp",
+            "membershiplevel": 2
+        },
+        {
+            "companyname": "Mayadan Cafe",
+            "companyaddress": {
+                "street": "654 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companynumber": "(123) 456 7890",
+            "companyurl": "www.mayadan.ca",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/storemayadancafe.webp",
+            "membershiplevel": 1
+        },
+        {
+            "companyname": "Dragonflies",
+            "companyaddress": {
+                "street": "987 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companynumber": "(123) 456 7890",
+            "companyurl": "www.dragonfliesjewerly.ca",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/storedragonflies.webp",
+            "membershiplevel": 2
+        },
+        {
+            "companyname": "Downtown Comics",
+            "companyaddress": {
+                "street": "753 1 Street",
+                "city": "Coaldale",
+                "province": "AB",
+                "country": "Canada",
+                "postalcode": "T1T 1T1"
+            },
+            "companynumber": "(123) 456 7890",
+            "companyurl": "www.downtowncomics.ca",
+            "companypicture": "https://j4z3-83.github.io/wdd231/chamber/images/storedowntowncomics.webp",
+            "membershiplevel": 3
+        }
+    ]
+}
