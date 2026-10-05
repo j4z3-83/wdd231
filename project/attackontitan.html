@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jared Aldridge">
+    <meta name="WDD231 Project" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jared Aldridge, WDD231, Project Website">
+    <title>Assassination Classroom Page</title>
+
+    <meta property="og:title" content="WDD231 Class Project Assassination Classroom Page">
+    <meta property="og:description" content="WDD231 Class Project Assassination Classroom  Page">
+    <meta property="og:image" content=">
+    <meta property=" og:url" content="https://j4z3-83.github.io/wdd231/project/index.html">
+
+    <link rel="stylesheet" href="styles/project-small.css">
+    <link rel="stylesheet" href="styles/project-medium.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+
+    <script src="scripts/attackontitan.js" defer></script>
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/hamburgerbutton.js" defer></script>
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="attack-on-titan">
+    <header id="page-head">
+        <img src="images/logo.webp" alt="" class="logo-img">
+        <nav class="on-screen-menu">
+            <a href="index.html" class="active">Home</a>
+            <a href="Request.html">Request a Title</a>
+            <a href="references.html">References</a>
+        </nav>
+
+        <div class="off-screen-menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Request.html">Request a Title</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </div>
+        <nav class="hamburger">
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="manga-content">
+            <div class="manga-title">Attack On Titan</div>
+            <div class="manga-name">Hajime Isayama</div>
+            <div class="des">In this post-apocalytpic sci-fi story, humanity has been devastated by the bizarre, giant
+                humanoids known as the Titans. Little is known about where they came from or why they are bent on
+                consuming mankind. Seemingly unintelligent, they have roamed the world for years, killing everyone
+                they see. For the past century, what's left of man has hidden in a giant, three-walled city. People
+                believe their 100-meter-high walls will protect them from the Titans, but the sudden appearance of an
+                immense Titan is about to change everything.
+            </div>
+        </div>
+        <article>
+            <div id="volumeCards"></div>
+            <div id="infoModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2 id="modalTitle">Loading...</h2>
+                    <div id="modalBody"></div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p class="">
+            WDD231 Class Project<br>
+            Jared Aldridge<br>
+            <span id="currentYear"></span> The Manga db<br>
+            <span id="lastModified"></span>
+        </p>
+        <nav class="sociallinks">
+            <a href="https://github.com/j4z3-83">
+                <img src="images/github.svg" class="colored-svg" alt="github logo">
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+                <img src="images/linkedin.svg" class="colored-svg" alt="linkedin logo">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
