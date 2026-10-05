@@ -11,6 +11,25 @@ async function getManagaData() {
     const mangaData = await response.json();
     console.table(mangaData.mangalist);
 
-}ca0c725
+    displayMangas(mangaData.mangalist);
+}
+
+function displayMangas(mangas){
+    mangas.array.forEach(manga => {
+
+        carouselItems.style.backgroundImage = `${manga.background-img}`;
+
+        mangaTitle.innerHTML = `${manga.title}`;
+        mangaCreator.innerHTML = `${manga.writer}, ${manga.illustrator}`;
+
+        mangaCard.appendChild(mangaTitle);
+        mangaCard.appendChild(mangaCreator);
+
+        carouselItems.appendChild(mangaCard);
+
+    });
+}
+
+
 
 getManagaData();
