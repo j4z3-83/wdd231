@@ -15,9 +15,9 @@ async function getManagaData() {
 }
 
 function displayMangas(mangas){
-    mangas.array.forEach(manga => {
+    mangas.forEach(manga => {
 
-        carouselItems.style.backgroundImage = `${manga.background-img}`;
+        carouselItems.style.backgroundImage = `${manga.backgroundimg}`;
 
         mangaTitle.innerHTML = `${manga.title}`;
         mangaCreator.innerHTML = `${manga.writer}, ${manga.illustrator}`;
