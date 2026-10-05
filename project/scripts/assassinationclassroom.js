@@ -1,9 +1,9 @@
-import { getManga } from mangas.mjs;
-const url = getManga;
+const url = 'https://j4z3-83.github.io/wdd231/project/data/assassinationclassroom.json';
 
 const cards = document.getElementById('volumeCards');
 const modal = document.getElementById('infoModal');
 const closeBtn = document.querySelector('.close-btn');
+const mangaTitle = document.querySelector('.manga-title')
 
 const modalTitle = document.getElementById('modalTitle');
 const modalBody = document.getElementById('modalBody');
@@ -13,7 +13,10 @@ async function getVolumeData() {
     const data = await response.json();
     console.table(data.volumes); // temporary testing of data response
 
+    mangaTitle.innerHTML = `${mangaData.mangatitle}`;
+
     displayVolumes(data.volumes);
+
 }
 
 function displayVolumes(volumes) {
