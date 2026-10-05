@@ -1,0 +1,141 @@
+@media screen and (min-width: 38rem) {
+
+    header {
+        padding-left: 60px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .on-screen-menu {
+        display: block;
+    }
+
+    .on-screen-menu a {
+        color: var(--text-color1);
+        background-color: rgba(0, 0, 0, .3);
+        border-radius: 3px;
+        margin-right: 5px;
+        padding: 5px 10px;
+        font-size: 16px;
+        transition: 0.2s;
+        text-decoration: none;
+    }
+
+    .on-screen-menu a.active {
+        background: var(--primary-color);
+        border-radius: 2px;
+    }
+
+    .on-screen-menu a:hover {
+        background: var(--primary-color);
+        border-radius: 2px;
+    }
+
+    footer {
+        flex-direction: row;
+        margin: 20px 15px;
+        justify-content: space-between;
+    }
+
+    #weatherCard{
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .carousel {
+        margin-bottom: -120px;
+
+    }
+
+    .carousel .list .item {
+        width: 180px;
+        height: 250px;
+        top: 80%;
+        transform: translateY(-70%);
+        left: 70%;
+    }
+
+    .carousel .list .item {}
+
+    .carousel .list .item:nth-child(3) {
+        left: 67%;
+    }
+
+    .carousel .list .item:nth-child(4) {
+        left: calc(67% + 200px);
+        opacity: 1;
+    }
+
+    .carousel .list .item:nth-child(5) {
+        left: calc(67% + 400px);
+        opacity: 1;
+    }
+
+    .carousel .list .item:nth-child(6) {
+        left: calc(67% + 600px);
+        opacity: 1;
+    }
+
+    .carousel .list .item:nth-child(n+7) {
+        left: calc(67% + 800px);
+        opacity: 0;
+    }
+
+    .list .item .content {
+        top: 50%;
+        left: 60px;
+    }
+
+    .content .title,
+    .content .name {
+        font-size: 70px;
+    }
+
+    .content .btn button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .arrows {
+        top: 70%;
+        left: 50%;
+    }
+
+    .manga-content {
+        top: 50%;
+        left: 60px;
+        width: 600px;
+    }
+
+    .manga-content .manga-title,
+    .manga-content .manga-name {
+        font-size: 70px;
+    }
+
+
+    #volumecards div {
+        grid-template-areas:
+            "picture manga"
+            "picture writer"
+            "picture illustrator"
+            "picture volume"
+            "picture title";
+    }
+
+    #volumecards div img {
+        align-self: center;
+        cursor: pointer;
+    }
+
+    .modal-content {
+        width: 600px;
+        margin: -160px;
+
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+}

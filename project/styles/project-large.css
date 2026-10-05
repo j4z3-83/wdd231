@@ -1,0 +1,41 @@
+@media screen and (min-width: 64rem) {
+
+    header {
+        padding-left: 100px;
+    }
+
+    .list .item .content {
+        top: 45%;
+        left: 100px;
+    }
+    
+    .content .title,
+    .content .name {
+        font-size: 90px;
+    }
+
+    .arrows {
+        top: 70%;
+    }
+    
+    
+    .manga-content {
+        top: 55%;
+        left: 100px;
+        width: 860px;
+    }
+
+    .manga- content .des {
+        font-size: 18px;
+    }
+
+    .manga-content .manga-title,
+    .manga-content .manga-name {
+        font-size: 90px;
+    }
+    .manga-content .manga-name {
+        width: 650px;
+        background-color: rgba(0, 0, 0, .3);
+    }
+
+}
