@@ -1,0 +1,642 @@
+:root {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --primary-color: #b2bfa9;
+    --secondary-color: #fead22;
+    --accent-color: #8c9e7e;
+    --text-color1: #2b3b19;
+    --text-color2: #202628;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/*---HEADER---*/
+header {
+    max-width: 1250px;
+    border-radius: 15px;
+    width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: var(--primary-color);
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-left: 1rem;
+}
+
+/*---SMALL VIEW NAVIGATION---*/
+#menu {
+    grid-column: 1 / 3;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❎";
+}
+
+#navigation {
+    grid-column: 1 / 3;
+    width: 100%;
+    margin: 1rem;
+}
+
+
+.nav ul {
+    padding-right: 2.5rem;
+    list-style-type: none;
+}
+
+.nav a {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem;
+    color: var(--text-color2);
+    font-weight: 700;
+}
+
+#navigation a:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color1);
+}
+
+.open a {
+    display: block;
+}
+
+.navigationul a.active {
+    background-color: var(--secondary-color);
+    color: var(--text-color1);
+}
+
+/*---END HEADER---*/
+
+/* ---FOOTER--- */
+footer {
+    max-width: 1250px;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto auto auto;
+    background-color: var(--primary-color);
+}
+
+.chamberaddress {
+    grid-row: 1 / 2;
+    padding: 1rem;
+    text-align: start;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: center;
+}
+
+.sociallinks img {
+    width: 50px;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.projectinfo {
+    grid-row: 3 / 4;
+    padding: 1rem;
+    text-align: start;
+}
+
+/*--- END FOOTER ---*/
+
+/*--- INDEX MAIN ---*/
+.chamber {
+    font-size: 1.5rem;
+    text-align: start;
+    margin: .5rem 0;
+}
+
+.hero {
+    grid-column: 1 / 3;
+    max-width: 1250px;
+    border-radius: 15px;
+}
+
+.hero img {
+    max-width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 1px solid var(--accent-color);
+}
+
+.calltoaction {
+    grid-column: 1 / 3;
+    justify-self: center;
+    text-align: start;
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, .5);
+    width: 100%;
+    max-width: 1250px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.join {
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+
+.join ul {
+    padding-right: 2.5rem;
+    list-style-type: none;
+}
+
+.join a {
+    background-color: var(--primary-color);
+    text-align: center;
+    border: 2px solid var(--accent-color);
+    border-radius: 15px;
+    text-decoration: none;
+    padding: .5rem;
+    color: var(--text-color2);
+    font-weight: 700;
+}
+
+#weather-cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent-color);
+}
+
+#town-name {
+    grid-column: 1 / 4;
+}
+
+#weather-cards section {
+    background-color: var(--primary-color);
+    margin: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid var(--accent-color);
+}
+
+.events {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--accent-color);
+}
+
+.events h2 {
+    text-align: center;
+}
+
+.events section {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 4px;
+    border: 1px solid var(--accent-color);
+}
+
+.event3 {
+    margin-bottom: 10px;
+}
+
+.grid {
+    width: 100%;
+    grid-column: 1 / 3;
+}
+
+#cards span {
+    grid-column: 1 / 3;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.memberGold {
+    width: 120px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px 3px black;
+}
+
+.memberSilver {
+    width: 120px;
+    background-color: #c0c0c0;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px 3px black;
+}
+
+/*--- END INDEX MAIN ---*/
+
+
+/*--- DIRECTORY MAIN ---*/
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    padding: .75rem;
+    margin: 1rem;
+    border-radius: 9999px;
+    background-color: var(--primary-color);
+    font-size: larger;
+    font-weight: 600;
+    color: var(--text-color2);
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+#cards section {
+    background-color: var(--primary-color);
+    margin-bottom: .5rem;
+}
+
+/*GRID DISPLAY*/
+.grid #cards {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    border: 1px solid var(--accent-color);
+}
+
+.grid #cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .5fr .25fr 1fr 1fr;
+    border-radius: 15px;
+    border: solid 2px var(--accent-color);
+}
+
+.grid #cards h2 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    color: var(--text-color2);
+    text-align: center;
+    padding: .5rem;
+}
+
+.grid #cards container {
+    grid-column: 1 / 3;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.grid #cards p {
+    grid-column: 2 / 3;
+    text-align: center;
+    align-self: center;
+    padding: .25rem;
+    margin: 0rem;
+}
+
+.grid #cards img {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    place-self: center;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 10px 3px black;
+}
+
+/*--- LIST DISPLAY ---*/
+.list #cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.list #cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: .5rem;
+}
+
+.list #cards h2 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    font-size: smaller;
+}
+
+.list #cards container {
+    grid-column: 2 / 3
+}
+
+.list #cards p {
+    font-size: smaller;
+}
+
+.list #cards img {
+    display: none;
+}
+
+.list #cards section:nth-child(even) {
+    background-color: var(--accent-color);
+}
+
+.list #cards section:last-child {
+    margin-bottom: 1rem;
+}
+
+/*--- END DIRECTORY MAIN ---*/
+
+/*--- JOIN MAIN ---*/
+/*FORM*/
+.form {
+    display: grid;
+    justify-items: center;
+}
+
+.joinForm fieldset {
+    display: block;
+    margin: 2rem 0;
+    border: 1px solid var(--accent-color);
+    border-radius: 6px;
+    padding: .5rem 2%;
+    width: 360px;
+}
+
+.joinForm legend {
+    color: var(--text-color2);
+    padding: 0 .5rem;
+}
+
+.joinForm label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--text-color1);
+    font-size: .9rem;
+}
+
+.joinForm input[type="text"],
+.joinForm input[type="organization-title"],
+.joinForm input[type="tel"],
+.joinForm input[type="email"],
+.joinForm select,
+.joinForm input[type="organization"],
+.joinForm textarea {
+    background-color: var(--primary-color);
+    display: block;
+    border: solid 1px var(--accent-color);
+    border-radius: 6px;
+    padding: .75rem;
+    color: var(--text-color2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.joinForm input[type="radio"] {
+    margin-right: 6px;
+}
+
+.joinForm input[type="submit"] {
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--text-color2);
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px var(--accent-color);
+}
+
+.joinForm input:required,
+.joinForm select:required {
+    border-left: solid 8px red;
+}
+
+.joinForm input:required:valid {
+    border-left: solid 8px var(--secondary-color);
+}
+
+/*ANIMATION*/
+.box-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.box {
+    width: 360px;
+    height: 100px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
+
+    animation: slideIn 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    opacity: 0;
+}
+
+.box:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.box:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.box:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+.box:nth-child(4) {
+    animation-delay: 0.7s;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+/*MODAL*/
+dialog {
+    margin-top: 25%;
+    margin-left: 6%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 3rem var(--accent-color);
+    width: 90%;
+    max-width: 360px;
+}
+
+#modalContent {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+::backdrop {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/*--- END JOIN MAIN ---*/
+
+/*--- THANKYOU MAIN ---*/
+.thankyou {
+    padding: 0 5%;
+    max-width: 1250px;
+}
+
+.thankyou h1 {
+    padding: .5rem 0;
+}
+
+.thankyou h2 {
+    border-bottom: 1px solid black;
+}
+
+#memberDetails {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 336px;
+    height: 192px;
+    margin: 1rem 0;
+    padding: .5rem;
+}
+
+#memberDetails h3 {
+    grid-column: 1 / 2;
+    border-bottom: 3px solid var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#memberDetails img {
+    width: 35px;
+    padding-bottom: 4.5px;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+#memberDetails p {
+    grid-column: 1 / 3;
+    padding-bottom: .5rem;
+}
+
+#orgDetails {
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    padding: .5rem;
+    margin-top: .5rem;
+}
+
+/*--- END THANKYOU MAIN ---*/
+
+/*--- DISCOVER MAIN ---*/
+.places {
+    text-align: center;
+}
+
+#placecards div {
+    margin: 1rem 8px;
+    border: 1px solid var(--accent-color);
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: grid;
+    justify-items: center;
+    grid-template-areas:
+        "name"
+        "picture"
+        "description"
+        "address"
+        "button";
+}
+
+#placecards div h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+#placecards div img {
+    width: 100%;
+    height: auto;
+    grid-area: picture;
+}
+
+#placecards div img:hover {
+    box-shadow: 0 0 50px black;
+}
+
+#placecards div address {
+    margin: 1rem 10px;
+    grid-area: address;
+}
+
+#placecards div p {
+    margin: 1rem 10px;
+    grid-area: description;
+}
+
+/*--- END DISCOVER MAIN ---*/
