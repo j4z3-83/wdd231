@@ -1,0 +1,28 @@
+{
+    "familyName": "Doe",
+    "moveInDate": "01/01/2026",
+    "householdSize": 4,
+    "bishopricVisited": true,
+    "familyMembers": [
+        {
+            "name": "John Doe",
+            "gender": "male",
+            "birthDate": "01/01/1990"
+        },
+        {
+            "name": "Jane Doe",
+            "gender": "female",
+            "birthDate": "01/01/1995"
+        },
+        {
+            "name": "Jack Doe",
+            "gender": "male",
+            "birthDate": "01/01/2015"
+        },
+        {
+            "name": "Jill Doe",
+            "gender": "female",
+            "birthDate": "01/01/2020"
+        }
+    ]
+}
