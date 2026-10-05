@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jared Aldridge">
+    <meta name="Homepage" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jared Aldridge, WDD231, Homepage for Web Frontend Development I">
+    <title>WDD231 Home Page</title>
+    <meta property="og:title" content="Home Page">
+    <meta property="og:description" content=" Home Page for WDD231">
+    <meta property="og:image" content="https://j4z3-83.github.io/wdd231/images/j4zlogo.jpg">
+    <meta property="og:url" content="https://j4z3-83.github.io/wdd231/">
+
+    <link rel="stylesheet" href="styles/homepage-small.css">
+    <link rel="stylesheet" href="styles/homepage-large.css">
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburgerbutton.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture class="logo">
+            <img src="images/j4z.svg" alt="j4z logo">
+        </picture>
+        <span class="title">Jared Aldridge</span>
+        <button id="menu" aria-label="Menu"></button>
+        <nav class="nav" id="navigation">
+            <ul class="navigationul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html">Chamber Project</a></li>
+                <li><a href="project/index.html">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="main">Home</h1>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Jared Aldridge - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quos, iste
+                perferendis iure ab animi possimus ducimus accusantium amet, veniam maiores, qui odit. A, quis facere
+                deserunt quo similique pariatur accusamus, beatae non doloremque quae quibusdam perferendis? Maxime, vel
+                libero sed et reprehenderit nam nemo amet quo itaque voluptatum recusandae fugit, consequuntur nulla
+                esse quos. Suscipit cumque neque velit delectus architecto labore unde fuga hic, sunt dolores iste a?
+                Aliquam delectus id iure beatae impedit laborum sunt accusamus minima laudantium similique. Autem quos
+                voluptatum minima architecto consectetur, a vero tempore ex molestias, fugit, dolore accusantium
+                voluptas necessitatibus cum sed debitis!
+            </p>
+        </section>
+        <section class="pic">
+            <h2>Student Photo</h2>
+            <picture><img src="images/profile.jpg" alt="Profile picture"></picture>
+        </section>
+        <section class="coursesection">
+            <div class="coursestitle">
+                <h2>Web and Computer Programming Certificate Courses</h2>
+            </div>
+            <div class="buttons">
+                <button class="all">All</button>
+                <button class="cse">CSE</button>
+                <button class="wdd">WDD</button>
+            </div>
+
+            <div class="courses" , id="openButton"></div>
+
+            <p class="credits"></p>
+        </section>
+        <dialog id="courseDetails">
+
+        </dialog>
+    </main>
+    <footer>
+        <nav class="links">
+            <a href="https://github.com/j4z3-83">
+                <img src="images/github.svg" alt="github logo">
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+                <img src="images/linkedin.svg" alt="linkedin logo">
+            </a>
+        </nav>
+        <div class="copyright">
+            <p><span id="currentYear"></span> &#9679; Jared Aldridge &#9679; Alberta, Canada</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
