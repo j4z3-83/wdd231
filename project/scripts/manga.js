@@ -9,9 +9,9 @@ const mangaCreator = document.querySelector('.name');
 async function getManagaData() {
     const response = await fetch(url);
     const mangaData = await response.json();
-    console.table(mangaData.mangalist);
+    console.table(mangaData.mangas);
 
-    displayMangas(mangaData.mangalist);
+    displayMangas(mangaData.mangas);
 }
 
 function displayMangas(mangas){
