@@ -9,7 +9,7 @@ const modal = document.getElementById('infoModal');
 const closeBtn = document.querySelector('.close-btn');
 const mangaTitle = document.querySelector('.manga-title');
 const creator = document.querySelector('.manga-name');
-const description = document.querySelector('.des');
+const mangaDescription = document.querySelector('.des');
 
 const modalTitle = document.getElementById('modalTitle');
 const modalBody = document.getElementById('modalBody');
@@ -31,16 +31,16 @@ async function getVolumeData() {
     } else {
         creator.innerHTML = `${data.writer}, ${data.illustrator}`;
     }
-    description.innerHTML = `${data.mangadsc}`
+    mangaDescription.innerHTML = `${data.mangadsc}`
     title = data.mangaTitle
     writer = data.writer;
     illustrator = data.illustrator
-    
+
     displayVolumes(data.volumes);
 }
 
 function displayVolumes(volumes) {
-    if(illustrator === "") {
+    if (illustrator === "") {
         illustrator = writer;
     }
     volumes.forEach((volume) => {
