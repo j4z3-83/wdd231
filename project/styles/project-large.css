@@ -12,8 +12,9 @@
     .content .title,
     .content .name {
         font-size: 90px;
+        width: 740px;
     }
-
+    
     .arrows {
         top: 70%;
     }
@@ -24,18 +25,17 @@
         left: 100px;
         width: 860px;
     }
-
-    .manga- content .des {
+    
+    .manga-content .des {
         font-size: 18px;
+        width: 740px;
     }
-
+    
     .manga-content .manga-title,
     .manga-content .manga-name {
         font-size: 90px;
+        width: 740px;
     }
-    .manga-content .manga-name {
-        width: 650px;
-        background-color: rgba(0, 0, 0, .3);
-    }
+    
 
 }

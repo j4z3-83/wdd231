@@ -1,305 +1,207 @@
 {
+    "mangatitle": "Attack on Titan",
+    "writer": "Hajime Isayama",
+    "illustrator": "",
+    "mangadsc": "In this post-apocalytpic sci-fi story, humanity has been devastated by the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming mankind. Seemingly unintelligent, they have roamed the world for years, killing everyone they see. For the past century, what's left of man has hidden in a giant, three-walled city. People believe their 100-meter-high walls will protect them from the Titans, but the sudden appearance of an immense Titan is about to change everything.",
     "volumes": [
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "1",
             "volumetitle": "The Desperate Battle Begins!",
             "volumedsc": "For the past century, what's left of mankind has hidden in a giant, three-walled city, trapped in fear of the bizarre,giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming humankind, but the sudden appearance of an enormous Titan is about to change everything.",
             "volumecover": "https://m.media-amazon.com/images/I/81qPzeEO5IL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "2",
             "volumetitle": "Birth Of A Monster",
             "volumedsc": "The Colossal Titan has breached humanity’s first line of defense, Wall Maria. Mikasa, the 104th Training Corps’ ace and Eren’s best friend, may be the only one capable of defeating them, but beneath her calm exterior lurks a dark past. When all looks lost, a new Titan appears and begins to slaughter its fellow Titans. Could this new monster be a blessing in disguise, or is the truth something much more sinister?",
             "volumecover": "https://m.media-amazon.com/images/I/81aads+i1KL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "3",
             "volumetitle": "Traitor",
             "volumedsc": "The last thing Eren remembers before blacking out, a Titan had bitten off his arm and leg and was getting ready to eat him alive. Much to his surprise he wakes up without a scratch on him, with a crowd of angry soldiers screaming for his blood. What strange new power has he awakened, and what will happen when the boy devoted to destroying the Titans becomes one himself?",
             "volumecover": "https://m.media-amazon.com/images/I/71vEIeswRNL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "4",
             "volumetitle": "Humanity Pushes Back!",
             "volumedsc": "The Survey Corps develop a risky gambit—have Eren in Titan form attempt to repair Wall Rose, reclaiming human territory from the monsters for the first time in a century. But Titan-Eren's self-control is far from perfect, and when he goes on a rampage, not even Armin can stop him! With the survival of humanity on his massive shoulders, will Eren be able to return to his senses, or will he lose himself forever?",
             "volumecover": "https://m.media-amazon.com/images/I/71oYp0Y7bxL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "5",
             "volumetitle": "Can You Go Home Again?",
             "volumedsc": "Thanks to Eren, humanity has taken the town of Trost back from the Titans. Exhausted, Eren falls into a coma for three days—and wakes in shackles, staring at Erwin Smith, leader of the Survey Corps. Certain that Eren's father's research holds the key to the mystery of the Titans' rise, Smith wants an expedition to retrieve it from the house where Eren grew up. But that's deep in Titan territory, and to get there Eren will need to master a power he still doesn't fully understand...",
             "volumecover": "https://m.media-amazon.com/images/I/81ZmG706YwL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "6",
             "volumetitle": "Titan On The Hunt",
             "volumedsc": "On the way to Eren's home, deep in Titan territory, the Survey Corps ranks are broken by a charge led by a Female Titan! But this Abnormal is different—she kills not to eat but to protect herself, and she seems to be looking for someone. Armin comes to a shocking conclusion: She's a human in a Titan's body, just like Eren!",
             "volumecover": "https://m.media-amazon.com/images/I/71W9NGZ27qL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "7",
             "volumetitle": "Turning On Their Own",
             "volumedsc": "The Survey Corps sets a cunning trap to capture the mysterious Abnormal Titan that broke through their ranks. As Armin tries to determine the grotesque creature's identity and purpose, Scouts report Titans closing in on all sides! But they don't seem to be after the humans—instead they're targeting the Titan!",
             "volumecover": "https://m.media-amazon.com/images/I/71TnfEiCirL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "8",
             "volumetitle": "Blood On His Hands",
             "volumedsc": "The expedition outside the wall was Eren's chance to prove himself. But it failed, and the Female Titan is free once more! With his squad dead, Eren faces a royal summons. Will Mikasa and Armin have to betray their king to save their friend? And can they discover the female Titan's identity before she kills again?",
             "volumecover": "https://m.media-amazon.com/images/I/71KuyOwegSL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "9",
             "volumetitle": "Humanity's Worst Nightmare",
             "volumedsc": "Eren is still resting from his brutal fight with the Female Titan, when word reaches the interior that the impossible has happened: Wall Rose itself has been breached, and Titans are pouring through the gap! The emergency casts new urgency over Armin and Hange's questions about how the walls were built, and what humanity can do to restore them...",
             "volumecover": "https://m.media-amazon.com/images/I/61RvzH+nUML._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "10",
             "volumetitle": "Fortress Of Blood",
             "volumedsc": "With no combat equipment and Wall Rose breached, the 104th scrambles to evacuate the villages in the Titans' path. On their way to the safety of Wall Sheena, they decide to spend the night in Utgard Castle. But their sanctuary becomes a slaughterhouse when they discover that, for some reason, these Titans attack at night!",
             "volumecover": "https://m.media-amazon.com/images/I/71qywWSbReL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "11",
             "volumetitle": "Do You Think This World Has A Future?",
             "volumedsc": "Thanks to Eren's timely arrival, the 104th has managed to turn the tide at Wall Rose. But this momentary victory forces two more traitors into a corner—and the identity of the Titans who have been destroying the walls is revealed! What can Eren do against the two most dangerous monsters humanity has ever faced? And who else might be an enemy in disguise?",
             "volumecover": "https://m.media-amazon.com/images/I/71D4Yta4z0L._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "12",
             "volumetitle": "The Chase Is On!",
             "volumedsc": "Erwin and the Survey Corps desperately mount a rescue operation to take Eren back from the Colossus Titan and Armored Titan. But without the numbers to form up properly outside the walls, how can the humans catch up before they're all slaughtered? Just whose side is Ymir on? And will Eren ever see his friends again?",
             "volumecover": "https://m.media-amazon.com/images/I/71pWZH10B+L._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "13",
             "volumetitle": "No Safe Place",
             "volumedsc": "At great cost to the Garrison and the Survey Corps, Commander Erwin has managed to recover Eren from the Titans who tried to carry him off. But during the battle, Eren manifested yet another power he doesn’t understand. As Eren and Krista find new enemies, the Survey Corps faces threats from both inside and outside the walls. And what will happen to Ymir, now that she has decided to make herself the Titans’ prize?",
             "volumecover": "https://m.media-amazon.com/images/I/71z4V6fR1vL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "14",
             "volumetitle": "Erwin's Greatest Gamble",
             "volumedsc": "Commander Erwin has finally come to a decision: Putting their own wealth and position ahead of the survival of humanity, the royal government is no longer fit to lead. To execute their leader’s most audacious plan yet, Eren and Krista will have to put themselves in peril yet again, and Armin, Mikasa, and the rest of the Survey Corps will have to turn from humanity’s guardians into traitors. If they fail this time, they’ll face not a Titan’s gaping mouth, but the gallows…",
             "volumecover": "https://m.media-amazon.com/images/I/71SyIss7KNL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "15",
             "volumetitle": "Fugitives and Prisoners",
             "volumedsc": "Hange’s interrogation of a Military Police squad has revealed that Krista (a.k.a. Historia Reiss) is the true heir to the throne. The Corps quickly moves to enthrone her as queen, but a homicidal MP leads a squad that abducts Eren and Krista and throws the Corps into disarray. With Erwin arrested and the Survey Corps on the edge of dissolution, are Levi and Hange finally out of options?",
             "volumecover": "https://m.media-amazon.com/images/I/81Ec5W3LorL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "16",
             "volumetitle": "What Was His Fathers Sin",
             "volumedsc": "Captured by Rod Reiss, the rightful king, Krista and Eren finally have their memories back. What exactly happened to Eren, and what was the crime his father committed? Meanwhile, the Survey Corps desperately hunts for Eren, while at the same time seeking to legitimize their military coup. As the situation inside the walls comes to a head, the mysteries of the world of the Titans seem on the cusp of being solved at last!",
             "volumecover": "https://m.media-amazon.com/images/I/71y4YJM6WoL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "17",
             "volumetitle": "Escape From King Titan",
             "volumedsc": "Thanks to Rod Reiss, Eren finally knows the terrible truth behind how he acquired his Titan powers, and the depth of his father's crimes. The king orders his daughter Historia to kill Eren and restore the power of the Titans to its rightful place, but she chooses her own selfish path: survival. As the cavern crumbles around the Survey Corps, Eren must make another last-minute decision, with the lives of all his friends in the balance.",
             "volumecover": "https://m.media-amazon.com/images/I/71FwFzk+Z3L._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "18",
             "volumetitle": "Ave Maria",
             "volumedsc": "The Survey Corps has overthrown the Royal Government and swept away the tyranny of the king. The next step: Move to retake Wall Maria, with the help of a newly-discovered metallic ore and Eren's miraculous Titan hardening powers. But as humanity pulls together, its enemies also unite beyond the Walls... now that the Beast Titan has joined Reiner and Bertolt, what havoc will they wreak?",
             "volumecover": "https://m.media-amazon.com/images/I/71DCe82ETjL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "19",
             "volumetitle": "Cage Match",
             "volumedsc": "The Survey Corps is engaged in a desperate, final battle to retake Wall Maria and defeat the Titans once and for all. Eren must use his new powers to seal the holes created five years ago in the Shiganshina District gates, not to mention to finally reach the basement of his old home and find what secrets lie hidden there. But the most difficult part of the operation will be surviving whatever clever traps the Colossus Titan, Armored Titan, and Beast Titan have prepared for them! Now that Erwin is gambling with every last human life, who will triumph?",
             "volumecover": "https://m.media-amazon.com/images/I/71ow9IiSLlL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "20",
             "volumetitle": "Facing Annihilation",
             "volumedsc": "he Survey Corps's quest for the truth of the world inside the Walls has brought them back to Titan-infested Shiganshina District, a mere stone's throw from Eren's childhood home. They have come to execute Erwin's final gambit, reclaiming Wall Maria and the secrets of humanity's past. But the Colossus Titan, the Armored Titan, and the Beast Titan have been waiting for them, and saving humanity will require the most difficult sacrifice the Corps has ever had to make...",
             "volumecover": "https://m.media-amazon.com/images/I/71uGdvTg-eL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "21",
             "volumetitle": "Locked in desperate battle with the man-eating Titans, the Survey Corps gets closer than ever before to Eren's basement and unlocking the mysteries of their walled world. But to get there, they will have to make a terrible choice with life-altering consequences for every surviving human soldier...",
             "volumecover": "https://m.media-amazon.com/images/I/71HWS9BQrnL._SL1200_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "22",
             "volumetitle": "Pyrrhic Victory",
             "volumedsc": "Despite losing countless lives in the battle against the Titans, what’s left of the Survey Corps arrives at the doorstep of Eren’s family home. There, in the basement, they find three notebooks that explain at last the origins of their walled world. In the notebooks, Eren’s father recounts a strange childhood and an even darker history: 1,800 years ago, one woman obtained the power of the Titans, provoking a racial conflict that ripped humanity apart. The Survey Corps realizes that they have been fumbling around in the dark…but what will they do now that they know the horrific truth?",
             "volumecover": "https://m.media-amazon.com/images/I/81kUAUIlG9L._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "23",
             "volumetitle": "The Dream Of Freedom Dies",
             "volumedsc": "The truth revealed through the memories in Grisha's journals shakes all of Eren's deepest beliefs. There is no rugged but free land beyond the Walls--there is a whole other world, equally full of oppression and war. Suddenly, the ambitions that have animated the Survey Corps for generations seem small and naïve. What is there left to fight for?",
             "volumecover": "https://m.media-amazon.com/images/I/81+7mMrd6LL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "24",
             "volumetitle": "It Catches Up To You",
             "volumedsc": "The world outside the Walls is vaster than Eren and his comrades could have ever imagined. Just beyond the shores of Paradis lies the country of Marley, home to Eren's mortal enemy Reiner. He may have returned home, hoping to consign 'the Armor' to his past, but some things can't be so easily forgotten, and Reiner is about to be confronted by a certain someone he turned his back on...",
             "volumecover": "https://m.media-amazon.com/images/I/81RqzxGM19L._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "25",
             "volumetitle": "Girding For Battle",
             "volumedsc": "Eren and everyone he has ever known have lived on the island of Paradis. For many years, the Marleyans have been threatening Paradis in an attempt to monopolize the power of the Titans and keep the world trembling before their military might. In an effort to prove their worth and cement their truth, the Marleyans prepare for the ultimate declaration of war on Paradis. But when the time for deliverance comes, neither side is equipped for the shocking drama that unfolds.",
             "volumecover": "https://m.media-amazon.com/images/I/81uuXxxGS+L._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "26",
             "volumetitle": "Clash Of The Eldians",
             "volumedsc": "The deadly pageant directed by and starring Willy Tybur clearly illustrates the threat posed by the island of Paradis, as the dangerous rebel Eren Yeager mows down civilians and deals a massive blow to the Marleyan army. Meanwhile, the Eldian soldiers including Mikasa, Connie, and Sasha sow chaos in the city and disrupt military communications. But the battle between Eren and the War Hammer Titan isn't over, and it's about to draw in the full might of this land's warriors...",
             "volumecover": "https://m.media-amazon.com/images/I/814HeVW5bYL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "27",
             "volumetitle": "Minutes To Midnight",
             "volumedsc": "Eren has infiltrated Marley territory and dealt the empire a devastating blow. But the real goal of the mission was always to get Zeke back to Paradis Island in secrecy. Now that this Titan heir of royal blood is inside the Walls, the island's military government has its 'earth-rumbling' weapon of mass destruction. But has this supposed deterrent actually started a countdown to total world war?",
             "volumecover": "https://m.media-amazon.com/images/I/81YoxXLbquL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "28",
             "volumetitle": "Ruthless Savior",
             "volumedsc": "fter years as a lonely double agent, Zeke finally returns to the good graces of his home island of Paradis. Still, the Survey Corps refuses to let him meet Eren--the other ingredient in the earth-shaking weapon-- for fear the explosive duo will be impossible to control. Meanwhile, the public responds badly to the military's open distrust of their hero Eren, and the detention of the Marleyan volunteers spurs an uprising. Amid the turmoil, Eren takes matters into his own hands...",
             "volumecover": "https://m.media-amazon.com/images/I/81hXETD1UcL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "29",
             "volumetitle": "Within The Hollow Crown",
             "volumedsc": "As a Marleyan invasion dangles like a guillotine blade over the island of Paradis, allies have become enemies, and former friends are at each other's throats. The Yeagerists are in all-out revolt, fighting to dismantle military rule before the potential for world war explodes into certain doom. Meanwhile, deep in the forest, the sides' most ruthless, fanatical killers are locked in single combat, but triumph is elusive where Titans are involved...",
             "volumecover": "https://m.media-amazon.com/images/I/81uqUfL0WlL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "30",
             "volumetitle": "Only Human",
             "volumedsc": "To activate the true power of the Founding Titan that courses through his veins, Eren must make contact with Zeke, a Titan of royal blood. Though Zeke has escaped Levi and the Survey Corps, he's made little headway before the Marleyan military and its Titan warriors attack. Eren pummels his way through the Marleyan trap and past his former friends, but as the battle rages, he stumbles into a situation far beyond what his brother could have planned.",
             "volumecover": "https://m.media-amazon.com/images/I/81M6zZO8cmL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "31",
             "volumetitle": "Advance Of The Titans",
             "volumedsc": "After breaking through a stronghold of old friends and enemies, Zeke hands down his plan for the Eldians to Eren. But what Eren was plotting with his rumbling powers leaves his brother in the dust, betrayed and alone once more. Now, with some help from Ymir, a parade of massive Titans are roused from their centuries-long slumber, breaking free of the Walls to answer their founder's call. Where the march leads, only Eren knows...",
             "volumecover": "https://m.media-amazon.com/images/I/81xfxW-xgEL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "32",
             "volumetitle": "The Dawn Of Man",
             "volumedsc": "Determined to protect his beloved home of Paradis, Eren uses the Founding Titan's power in an attempt to wipe out the rest of humanity. As the droves of Titans press on, Eren, long unrecognizable as a friend, a brother, a savior, has become indiscernible from a devil... Now, Mikasa, Armin, and the surviving members of the Survey Corps must band together with their sworn enemies--Marleyan soldiers and 104th defectors--to save the world.",
             "volumecover": "https://m.media-amazon.com/images/I/81-YKAxQfPL._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "33",
             "volumetitle": "Marching Onward",
             "volumedsc": "Once hailed as humanity’s greatest hope, Eren has since become unrecognizable. With the Attack Titan now morphed into a grotesque, colossal skeleton of its former self, Eren continues to control the wave of Titans laying waste to the world, extinguishing countless homes, towns, and lives in their wake. In order to salvage what’s left of humanity, Mikasa, Armin, and the Survey Corps decide to confront Eren head-on. But to stop the Rumbling, they’ll have to dedicate much more than their hearts...",
             "volumecover": "https://m.media-amazon.com/images/I/81Ga2OPKk9L._SL1500_.jpg"
         },
         {
-            "mangatitle": "Attack on Titan",
-            "writer": "Hajime Isayama",
-            "illustrator": "Hajime Isayama",
             "volumenumber": "34",
             "volumetitle": "Freedom",
             "volumedsc": "Eren’s titanic Rumbling claims thousands of lives beyond the walls of Paradis, and the boy who once lived in fear of the Titans becomes the world’s most feared man. Determined to stop the destruction wrought by their childhood friend, Armin, Mikasa, and their surviving comrades reach the Attack Titan and decide to face him head on in an ultimate showdown. Will humanity ﬁnally be set free from the cycle of fear, oppression, and destruction, or will the Titans outlive their victims?",

@@ -57,6 +57,37 @@
     </header>
 
     <main>
+        <form method="get" action="thanks.html" class="mform">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name<input type="text" name="lname"></label>
+                <label>phone<input type="tel" name="phone" placeholder="1234445678"></label>
+                <label>Email*<input type="email" name="email" placeholder="name@email.com" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Manga Information</legend>
+                <label>Title*<input type="text" name="title" required></label>
+                <label>Writer<input type="text" name="writer"></label>
+                <label>Illustrator<input type="text" name="illustrator"></label>
+                <label>Volume Count<input type="number" name="volumes"></label>
+                <label>Classification
+                    <select name="classification">
+                        <option value="">Select classification &#9662;</option>
+                        <option value="shonen">Shonen</option>
+                        <option value="shojo">Shojo</option>
+                        <option value="seinen">Seinen</option>
+                        <option value="josei">Josei</option>
+                    </select>
+                </label>
+                <div>Status</div>
+                <label><input type="radio" name="status">On Going</label>
+                <label><input type="radio" name="status">Completed</label>
+            </fieldset>
+
+            <input type="submit" value="Request a Manga">
+        </form>
 
     </main>
 

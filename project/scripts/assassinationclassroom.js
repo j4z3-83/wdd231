@@ -1,25 +1,40 @@
-const url = 'https://j4z3-83.github.io/wdd231/project/data/assassinationclassroom.json';
+const url = './data/assassinationclassroom.json';
 
 const cards = document.getElementById('volumeCards');
 const modal = document.getElementById('infoModal');
 const closeBtn = document.querySelector('.close-btn');
-const mangaTitle = document.querySelector('.manga-title')
+const mangaTitle = document.querySelector('.manga-title');
+const creator = document.querySelector('.manga-name');
+const description = document.querySelector('.des');
 
 const modalTitle = document.getElementById('modalTitle');
 const modalBody = document.getElementById('modalBody');
+let writer;
+let illustrator;
+
 
 async function getVolumeData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.volumes); // temporary testing of data response
 
-    mangaTitle.innerHTML = `${mangaData.mangatitle}`;
-
+    mangaTitle.innerHTML = `${data.mangatitle}`;
+    if (data.illustrator === "") {
+        creator.innerHTML = `${data.writer}`;
+    } else {
+        creator.innerHTML = `${data.writer}, ${data.illustrator}`;
+    }
+    description.innerHTML = `${data.mangadsc}`
+    writer = data.writer;
+    illustrator = data.illustrator
+    
     displayVolumes(data.volumes);
-
 }
 
 function displayVolumes(volumes) {
+    if(illustrator === "") {
+        illustrator = writer;
+    }
     volumes.forEach((volume) => {
         let card = document.createElement("div");
         let volumePicture = document.createElement("img");
@@ -38,8 +53,8 @@ function displayVolumes(volumes) {
             modalTitle.textContent = `${volume.mangatitle}`;
 
             modalBody.innerHTML = `
-            <p><strong>Written by:</strong> ${volume.writer}</p>
-            <p><strong>Illustrated by:</strong> ${volume.illustrator}</p>
+            <p><strong>Written by:</strong> ${writer}</p>
+            <p><strong>Illustrated by:</strong> ${illustrator}</p>
             <p><strong>Volume number:</strong> ${volume.volumenumber}</p>
             <img src=${volume.volumecover} alt="volume ${volume.volumenumber} cover" width="250" height="400">
             <p><strong>Volume title:</strong> ${volume.volumetitle}</p>

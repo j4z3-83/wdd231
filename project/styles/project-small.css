@@ -259,13 +259,21 @@ footer {
     display: block;
 }
 
+.content{
+}
+
 .content .title {
     font-size: 40px;
     text-transform: uppercase;
     color: var(--primary-color);
     font-weight: bold;
     line-height: 1;
-
+    background-color: rgba(119, 193, 225, .8);    
+    width: 335px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 15px;
+    
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
@@ -278,6 +286,11 @@ footer {
     margin-bottom: 20px;
     color: var(--secondary-color);
     text-shadow: 3px 4px 4px rgba(228, 194, 17, 0.8);
+    background-color: rgba(119, 193, 225, .8);    
+    width:335px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 15px;
 
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
@@ -448,8 +461,11 @@ footer {
     margin-bottom: 20px;
     font-size: 14px;
     margin-left: 5px;
-    color: var(--text-color1);
-    background-color: rgba(0, 0, 0, 0.3);
+    color: var(--text-color2);
+    background-color: rgba(119, 193, 225, .8);
+    width:335px;
+    border-radius: 15px;
+    padding: 5px;   
     border-radius: 6px;
 }
 
@@ -459,6 +475,11 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1;
+    background-color: rgba(119, 193, 225, .8);    
+    width:335px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 15px;
 
 }
 
@@ -528,12 +549,6 @@ footer {
     margin: .25rem 0;
 }
 
-
-
-
-
-
-
 .close-btn {
     float: right;
     font-size: 2rem;
@@ -542,4 +557,80 @@ footer {
 
 .modal.show {
     display: block;
+}
+
+/*--- FORM STYLING ---*/
+
+.mform fieldset{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 2rem 0;
+    border: 2px solid var(--accent-color);
+    border-radius: 15px;
+    padding: 1rem 2%;
+    width: 100%;
+    max-width: 500px;
+}
+
+.mform legend{
+    color: var(--primary-color);
+    padding: 0  .5rem;
+    font-size: 1.5rem;
+}
+
+.mform label{
+    display: block;
+    padding-top: 1rem;
+    color: #243a44;
+    font-size: 1.2rem;
+}
+
+.mform div {
+    padding-top: 1rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.mform input[type="text"],
+.mform input[type="tel"],
+.mform input[type="email"],
+.mform input[type="number"],
+.mform select {
+    background-color: #eee;
+    display: block;
+    border: solid 1px var(--accent-color);
+    border-radius: 15px;
+    padding: 1rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.mform input[type="radio"]{
+    margin-right: 8px;
+}
+
+.mform input[type="submit"] {
+    position: relative;
+    left: 50%;
+    transform: translate(-62%);
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--text-color1);
+    border-radius: 15px;
+    padding: 1rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.mform input:required{
+    border-left: solid 10px var(--primary-color);
+}
+
+.mform input:required:valid{
+    border-left: solid 10px var(--secondary-color);
 }

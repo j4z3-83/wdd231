@@ -28,7 +28,8 @@ async function apiFetch() {
 function displayResults(data) {
     town.innerHTML = data.city.name;
     description.innerHTML = data.list[0].weather[0].description;
-    temperature.innerHTML = `${data.list[0].main.temp}&deg;C`;
+    const roundedTemp = Math.round(data.list[0].main.temp);
+    temperature.innerHTML = `${roundedTemp}&deg;C`;
     graphic.src = `https://openweathermap.org/img/wn/${data.list[0].weather[0].icon}@2x.png`;
     graphic.alt = data.list[0].weather[0].description;
 }

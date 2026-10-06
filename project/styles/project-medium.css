@@ -84,36 +84,42 @@
     }
 
     .list .item .content {
-        top: 50%;
+        top: 40%;
         left: 60px;
     }
 
     .content .title,
     .content .name {
         font-size: 70px;
+        width: 580px;
     }
-
+    
     .content .btn button {
         padding: 10px 15px;
         font-size: 16px;
     }
-
+    
     .arrows {
         top: 70%;
         left: 50%;
     }
-
+    
     .manga-content {
         top: 50%;
         left: 60px;
         width: 600px;
     }
-
+    
     .manga-content .manga-title,
     .manga-content .manga-name {
+        width: 580px;
         font-size: 70px;
     }
-
+    
+    .manga-content .des {
+        width: 580px;
+        font-size: 16px;
+    }
 
     #volumecards div {
         grid-template-areas:
