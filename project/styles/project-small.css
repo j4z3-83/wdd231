@@ -25,6 +25,9 @@ header {
     align-items: center;
     position: relative;
     z-index: 1000;
+    background: #BE070A;
+    background: linear-gradient(90deg, rgba(190, 7, 10, 1) 0%, rgba(228, 194, 17, 1) 100%);
+
 }
 
 header img {
@@ -131,28 +134,36 @@ footer {
     align-items: center;
     flex-direction: column;
     position: relative;
+    margin-top: -5px;
     z-index: 500;
-    margin-top: auto;
+    background: #BE070A;
+    background: linear-gradient(90deg, rgba(190, 7, 10, 1) 0%, rgba(228, 194, 17, 1) 100%);
 }
 
 .info {
     color: var(--text-color1);
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 6px;
+    padding: .5rem;
+    margin-top: .5rem;
 }
 
 .sociallinks a img {
     height: 45px;
     background-color: var(--text-color1);
     border-radius: 50%;
+    margin: .5rem 0;
 }
 
 #weatherCard {
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
     display: grid;
     justify-items: center;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+    padding: .5rem;
+    margin-bottom: .5rem;
 }
 
 #town {
@@ -185,10 +196,7 @@ footer {
 .landing-hero {
     width: 100%;
     height: 100vh;
-    margin-top: -160px;
-    margin-bottom: -200px;
     overflow: hidden;
-    position: relative;
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -202,8 +210,6 @@ footer {
 .carousel {
     width: 100%;
     height: 100vh;
-    margin-top: -160px;
-    margin-bottom: -200px;
     overflow: hidden;
     position: relative;
 }
@@ -429,41 +435,16 @@ footer {
 /*--- MANGA SECTION ---*/
 
 /*--- VOLUMES SECTION ---*/
-
-.assasination-classroom {
-    background-image: url("https://j4z3-83.github.io/wdd231/project/images/assassinationclassroom.webp");
-    background-attachment: scroll;
+#background {
+    width: 100%;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
-.attack-on-titan {
-    background-image: url("https://j4z3-83.github.io/wdd231/project/images/attackontitan.webp");
-    background-attachment: scroll;
-}
-
-.death-note {
-    background-image: url("https://j4z3-83.github.io/wdd231/project/images/deathnote.webp");
-    background-attachment: scroll;
-}
-
-.fullmetal-alchemist {
-    background-image: url("https://j4z3-83.github.io/wdd231/project/images/fullmetalalchemist.webp");
-    background-attachment: scroll;
-}
-
-.nisekoi {
-    background-image: url("https://j4z3-83.github.io/wdd231/project/images/nisekoi.webp");
-    background-attachment: scroll;
-}
-
-.tokyo-ghoul {
-    background-image: url("https://j4z3-83.github.io/wdd231/project/images/tokyoghoul.webp");
-    background-attachment: scroll;
-}
-
-
-.manga-content {
+#background .manga-content {
     position: relative;
-    top: 40%;
+    top: 2%;
     left: 25px;
     width: 300PX;
     text-align: left;

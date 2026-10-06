@@ -1,0 +1,46 @@
+{
+    "mangas": [
+        {
+            "title": "Assassination Classroom",
+            "writer": "Yusei Matsui",
+            "illustrator": "",
+            "volumejson": "https://j4z3-83.github.io/wdd231/project/data/assassinationclassroom.json",
+            "backgroundimg": "https://j4z3-83.github.io/wdd231/project/images/assassinationclassroom.webp"
+        },
+        {
+            "title": "Attack on Titan",
+            "writer": "Hajime Isayama",
+            "illustrator": "",
+            "volumejson": "https://j4z3-83.github.io/wdd231/project/data/attackontitan.json",
+            "backgroundimg": "https://j4z3-83.github.io/wdd231/project/images/attackontitan.webp"
+        },
+        {
+            "title": "Death Note",
+            "writer": "Tsugumi Ohba",
+            "illustrator": "Takeshi Obata",
+            "volumejson": "https://j4z3-83.github.io/wdd231/project/data/deathnote.json",
+            "backgroundimg": "https://j4z3-83.github.io/wdd231/project/images/deathnote.webp"
+        },
+        {
+            "title": "Fullmetal Alchemist",
+            "writer": "Hiromu Arakawa",
+            "illustrator": "",
+            "volumejson": "https://j4z3-83.github.io/wdd231/project/data/fullmetalalchemist.json",
+            "backgroundimg": "https://j4z3-83.github.io/wdd231/project/images/fullmetalalchemist.webp"
+        },
+        {
+            "title": "Nisekoi",
+            "writer": "Naoshi Komi",
+            "illustrator": "",
+            "volumejson": "https://j4z3-83.github.io/wdd231/project/data/nisekoi.json",
+            "backgroundimg": "https://j4z3-83.github.io/wdd231/project/images/nisokoi.webp"
+        },
+        {
+            "title": "Tokyo Ghoul",
+            "writer": "Sui Ishida",
+            "illustrator": "",
+            "volumejson": "https://j4z3-83.github.io/wdd231/project/data/tokyoghoul.json",
+            "backgroundimg": "https://j4z3-83.github.io/wdd231/project/images/tokyoghoul.webp"
+        }
+    ]
+}

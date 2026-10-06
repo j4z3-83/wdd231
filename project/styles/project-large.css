@@ -4,6 +4,18 @@
         padding-left: 100px;
     }
 
+    .on-screen-menu a {
+        color: var(--text-color2);
+        background-color: var(--accent-color);
+        border-radius: 15px;
+        margin-right: 1rem;
+        padding: 1rem 1rem;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 0.2s;
+        text-decoration: none;
+    }
+
     .list .item .content {
         top: 45%;
         left: 100px;

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jared Aldridge">
+    <meta name="WDD231 Project home page" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jared Aldridge, WDD231, Project Website">
+    <title>The Manga db home page</title>
+
+    <meta property="og:title" content="WDD231 Class Project Home Page">
+    <meta property="og:description" content="WDD231 Class Project Home Page">
+    <meta property="og:image" content=">
+    <meta property=" og:url" content="https://j4z3-83.github.io/wdd231/project/index.html">
+
+    <link rel="stylesheet" href="styles/project-small.css">
+    <link rel="stylesheet" href="styles/project-medium.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+
+    <script src=" scripts/carousel.js" defer></script>
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/hamburgerbutton.js" defer></script>
+    <script src="scripts/getweather.js" defer></script>
+
+    <link rel="icon" href="images/mangadbfavicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="page-head">
+        <img src="images/logo.webp" alt="" class="logo-img">
+        <nav class="on-screen-menu">
+            <a href="index.html">Home</a>
+            <a href="manga.html">Explore our Manga</a>
+            <a href="Request.html">Request a Title</a>
+            <a href="references.html">References</a>
+        </nav>
+
+        <div class="off-screen-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="manga.html">Explore our Manga</a></li>
+                <li><a href="request.html">Request a Title</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </div>
+        <nav class="hamburger">
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <p class="info">
+            WDD231 Class Project<br>
+            Jared Aldridge<br>
+            <span id="currentYear"></span> The Manga db<br>
+            <span id="lastModified"></span>
+        </p>
+        <nav class="sociallinks">
+            <a href="https://github.com/j4z3-83">
+                <img src="images/github.svg" class="colored-svg" alt="github logo">
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+                <img src="images/linkedin.svg" class="colored-svg" alt="linkedin logo">
+            </a>
+        </nav>
+        <div id="weatherCard">
+            <h1 id="town"></h1>
+            <img id="graphic" src="" alt="">
+            <h2 id="temperature"></h2>
+            <p id="description"></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
