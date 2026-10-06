@@ -18,10 +18,10 @@
     <link rel="stylesheet" href="styles/project-medium.css">
     <link rel="stylesheet" href="styles/project-large.css">
 
-    <script src=" scripts/carousel.js" defer></script>
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/hamburgerbutton.js" defer></script>
     <script src="scripts/getweather.js" defer></script>
+    <script src="scripts/thanks.js" defer></script>
 
     <link rel="icon" href="images/mangadbfavicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,10 +35,12 @@
     <header id="page-head">
         <img src="images/logo.webp" alt="" class="logo-img">
         <nav class="on-screen-menu">
-            <a href="index.html">Home</a>
-            <a href="manga.html">Explore our Manga</a>
-            <a href="Request.html">Request a Title</a>
-            <a href="references.html">References</a>
+            <ul class="navigationul">
+                <a href="index.html">Home</a>
+                <a href="manga.html">Explore our Manga</a>
+                <a href="Request.html">Request a Title</a>
+                <a href="references.html">References</a>
+            </ul>
         </nav>
 
         <div class="off-screen-menu">
@@ -60,11 +62,15 @@
 
     <main>
 
-        <picture>
+        <picture class="thanks-background">
             <source media="(min-width: 1024px)" srcset="images/thankspageheroimage.webp">
             <source media="(min-width: 608px)" srcset="images/thankspageheroimagemed.webp">
             <img src="images/thankspageheroimagesmall.webp" alt="" style="width: 100%;">
         </picture>
+
+        <div class="thankyou">
+            <div id="requestDetails"></div>
+        </div>
 
 
     </main>

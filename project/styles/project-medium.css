@@ -34,7 +34,7 @@
         background: var(--primary-color);
         border-radius: 15px;
     }
-    
+
     .navigationul a:hover {
         color: var(--text-color1);
         background: var(--primary-color);
@@ -76,8 +76,6 @@
         left: 70%;
     }
 
-    .carousel .list .item {}
-
     .carousel .list .item:nth-child(3) {
         left: 67%;
     }
@@ -103,8 +101,9 @@
     }
 
     .list .item .content {
-        top: 40%;
-        left: 60px;
+        position: absolute;
+        top: 25%;
+        left: 5%;
     }
 
     .content .title,
@@ -161,6 +160,13 @@
         position: sticky;
         top: 0;
         left: 0;
+    }
+
+    .thankyou {
+        top: 20%;
+        left: 25%;
+        font-size: 2rem;
+        width: 500px;
     }
 
 }

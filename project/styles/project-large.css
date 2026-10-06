@@ -16,11 +16,7 @@
         text-decoration: none;
     }
 
-    .list .item .content {
-        top: 45%;
-        left: 100px;
-    }
-    
+        
     .content .title,
     .content .name {
         font-size: 90px;
@@ -47,6 +43,13 @@
     .manga-content .manga-name {
         font-size: 90px;
         width: 740px;
+    }
+
+    .thankyou {
+        top: 20%;
+        left: 25%;
+        font-size: 2.5rem;
+        width: 600px;
     }
     
 

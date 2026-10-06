@@ -23,7 +23,8 @@ async function getVolumeData() {
     const data = await response.json();
     console.table(data.volumes); // temporary testing of data response
 
-    background.style.backgroundImage = `url(${data.background})`
+    background.style.backgroundImage = `url(${data.background})`;
+    background.classList.add('volume-background');
     mangaTitle.innerHTML = `${data.mangatitle}`;
     if (data.illustrator === "") {
         creator.innerHTML = `${data.writer}`;
