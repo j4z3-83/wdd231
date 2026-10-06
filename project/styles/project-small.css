@@ -124,7 +124,6 @@ header img {
 /*--- HEADER SECTION ---*/
 
 
-
 /*--- FOOTER SECTION ---*/
 
 footer {
@@ -182,13 +181,26 @@ footer {
 /*--- FOOTER SECTION ---
 
 
+/*--- LANDING PAGE SECTION ---*/
+.landing-hero {
+    width: 100%;
+    height: 100vh;
+    margin-top: -160px;
+    margin-bottom: -200px;
+    overflow: hidden;
+    position: relative;
+    background-position: 50% 50%;
+    background-size: cover;
+}
 
-/*--- MAIN SECTION ---*/
+/*--- LANDING PAGE SECTION ---*/
+
+
+/*--- MANGA SECTION ---*/
 
 /*--- CAROUSEL ---*/
-
 .carousel {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin-top: -160px;
     margin-bottom: -200px;
@@ -259,8 +271,7 @@ footer {
     display: block;
 }
 
-.content{
-}
+.content {}
 
 .content .title {
     font-size: 40px;
@@ -268,12 +279,12 @@ footer {
     color: var(--primary-color);
     font-weight: bold;
     line-height: 1;
-    background-color: rgba(119, 193, 225, .8);    
+    background-color: rgba(119, 193, 225, .8);
     width: 335px;
     border-radius: 15px;
     padding: 5px;
     margin-bottom: 15px;
-    
+
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
@@ -286,8 +297,8 @@ footer {
     margin-bottom: 20px;
     color: var(--secondary-color);
     text-shadow: 3px 4px 4px rgba(228, 194, 17, 0.8);
-    background-color: rgba(119, 193, 225, .8);    
-    width:335px;
+    background-color: rgba(119, 193, 225, .8);
+    width: 335px;
     border-radius: 15px;
     padding: 5px;
     margin-bottom: 15px;
@@ -415,7 +426,9 @@ footer {
     }
 }
 
-/*--- MAIN SECTION ---*/
+/*--- MANGA SECTION ---*/
+
+/*--- VOLUMES SECTION ---*/
 
 .assasination-classroom {
     background-image: url("https://j4z3-83.github.io/wdd231/project/images/assassinationclassroom.webp");
@@ -463,9 +476,9 @@ footer {
     margin-left: 5px;
     color: var(--text-color2);
     background-color: rgba(119, 193, 225, .8);
-    width:335px;
+    width: 335px;
     border-radius: 15px;
-    padding: 5px;   
+    padding: 5px;
     border-radius: 6px;
 }
 
@@ -475,8 +488,8 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1;
-    background-color: rgba(119, 193, 225, .8);    
-    width:335px;
+    background-color: rgba(119, 193, 225, .8);
+    width: 335px;
     border-radius: 15px;
     padding: 5px;
     margin-bottom: 15px;
@@ -559,9 +572,11 @@ footer {
     display: block;
 }
 
-/*--- FORM STYLING ---*/
+/*--- VOLUME SECTION ---*/
 
-.mform fieldset{
+/*--- FORM SECTION ---*/
+
+.mform fieldset {
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -573,13 +588,13 @@ footer {
     max-width: 500px;
 }
 
-.mform legend{
+.mform legend {
     color: var(--primary-color);
-    padding: 0  .5rem;
+    padding: 0 .5rem;
     font-size: 1.5rem;
 }
 
-.mform label{
+.mform label {
     display: block;
     padding-top: 1rem;
     color: #243a44;
@@ -608,7 +623,7 @@ footer {
     appearance: none;
 }
 
-.mform input[type="radio"]{
+.mform input[type="radio"] {
     margin-right: 8px;
 }
 
@@ -627,10 +642,12 @@ footer {
     box-shadow: 2px 2px 5px #000;
 }
 
-.mform input:required{
+.mform input:required {
     border-left: solid 10px var(--primary-color);
 }
 
-.mform input:required:valid{
+.mform input:required:valid {
     border-left: solid 10px var(--secondary-color);
 }
+
+/*--- FORM SECTION ---*/

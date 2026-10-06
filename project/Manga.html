@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/project-medium.css">
     <link rel="stylesheet" href="styles/project-large.css">
 
-    <script src="scripts/carousel.js" defer></script>
+    <script src=" scripts/carousel.js" defer></script>
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/hamburgerbutton.js" defer></script>
     <script src="scripts/getweather.js" defer></script>
@@ -59,37 +59,79 @@
     </header>
 
     <main>
-        <form method="get" action="thanks.html" class="mform">
-            <fieldset>
-                <legend>Personal Information</legend>
-                <label>First Name*<input type="text" name="fname" required></label>
-                <label>Last Name<input type="text" name="lname"></label>
-                <label>phone<input type="tel" name="phone" placeholder="1234445678"></label>
-                <label>Email*<input type="email" name="email" placeholder="name@email.com" required></label>
-            </fieldset>
+        <div class="carousel">
 
-            <fieldset>
-                <legend>Manga Information</legend>
-                <label>Title*<input type="text" name="title" required></label>
-                <label>Writer<input type="text" name="writer"></label>
-                <label>Illustrator<input type="text" name="illustrator"></label>
-                <label>Volume Count<input type="number" name="volumes"></label>
-                <label>Classification
-                    <select name="classification">
-                        <option value="">Select classification &#9662;</option>
-                        <option value="shonen">Shonen</option>
-                        <option value="shojo">Shojo</option>
-                        <option value="seinen">Seinen</option>
-                        <option value="josei">Josei</option>
-                    </select>
-                </label>
-                <div>Status</div>
-                <label><input type="radio" name="status">On Going</label>
-                <label><input type="radio" name="status">Completed</label>
-            </fieldset>
+            <div class="list">
 
-            <input type="submit" value="Request a Manga">
-        </form>
+                <div class="item" style="background-image: url(images/assassinationclassroom.webp);">
+                    <div class="content">
+                        <div class="title">Assassination Classroom</div>
+                        <div class="name">Yusei Matsui</div>
+                        <div class="btn">
+                            <a href="assassinationclassroom.html">See Volumes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(images/attackontitan.webp);">
+                    <div class="content">
+                        <div class="title">Attack on Titan</div>
+                        <div class="name">Hajime Isayama</div>
+                        <div class="btn">
+                            <a href="attackontitan.html">See Volumes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(images/deathnote.webp);">
+                    <div class="content">
+                        <div class="title">Deathnote</div>
+                        <div class="name">Tsugumi Ohba, Takeshi Obata</div>
+                        <div class="btn">
+                            <a href="deathnote.html">See Volumes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(images/fullmetalalchemist.webp);">
+                    <div class="content">
+                        <div class="title">Fullmetal Alchemist</div>
+                        <div class="name">Hiromu Arakawa</div>
+                        <div class="btn">
+                            <a href="fullmetalalchemist.html">See Volumes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item" style="background-image: url(images/nisekoi.webp);">
+                    <div class="content">
+                        <div class="title">Nisekoi</div>
+                        <div class="name">Naoshi Komi</div>
+                        <div class="btn">
+                            <a href="nisekoi.html">See Volumes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(images/tokyoghoul.webp);">
+                    <div class="content">
+                        <div class="title">Tokyo Ghoul</div>
+                        <div class="name">Sui Ishida</div>
+                        <div class="btn">
+                            <a href="tokyoghoul.html">See Volumes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- next prev buttons -->
+        <div class="arrows">
+            <button class="prev">&#8656;</button>
+            <button class="next">&#8658;</button>
+        </div>
+
+        <!-- time running -->
+        <div class="timerunning"></div>
+
 
     </main>
 

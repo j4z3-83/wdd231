@@ -9,7 +9,7 @@
     }
 
     .on-screen-menu {
-        display: block;
+        display: flex;
     }
 
     .on-screen-menu a {
@@ -42,6 +42,10 @@
     #weatherCard{
         width: 200px;
         border-radius: 10px;
+    }
+
+    .landing-hero {
+        margin-bottom: -120px;
     }
 
     .carousel {
