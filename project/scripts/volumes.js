@@ -51,7 +51,7 @@ function displayVolumes(volumes) {
         volumePicture.setAttribute('alt', `cover of ${volume.volumenumber}`)
         volumePicture.setAttribute('loading', 'lazy')
         volumePicture.setAttribute('width', '150');
-        volumePicture.setAttribute('height', '200');
+
 
         card.appendChild(volumePicture);
 
