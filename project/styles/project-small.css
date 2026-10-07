@@ -207,6 +207,31 @@ footer {
 /*--- MANGA SECTION ---*/
 
 /*--- CAROUSEL ---*/
+
+.assassinationclassroom {
+    background-image: url("../images/assassinationclassroom.webp");
+}
+
+.attackontitan {
+    background-image: url("../images/attackontitan.webp");
+}
+
+.deathnote {
+    background-image: url("../images/deathnote.webp");
+}
+
+.fullmetalalchemist {
+    background-image: url("../images/fullmetalalchemist.webp");
+}
+
+.nisekoi {
+    background-image: url("../images/nisekoi.webp");
+}
+
+.tokyoghoul {
+    background-image: url("../images/tokyoghoul.webp");
+}
+
 .carousel {
     width: 100%;
     height: 100vh;
