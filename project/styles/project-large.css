@@ -16,29 +16,57 @@
         text-decoration: none;
     }
 
-        
+    .landing-background {
+        background-image: url(../images/landingpageheroimage.webp);
+    }
+
+    .call-to-action {
+        top: 50%;
+        left: 70%;
+        transform: translate(0);
+    }
+
+    .call-btn {
+        margin-top: 1rem;
+        transform: translate(-35%);
+    }
+
+    .call-btn a {
+        font-size: 24px;
+    }
+
+    .call-to-action {
+        position: relative;
+        top: 52%;
+        left: 35%;
+    }
+
+    .action {
+        font-size: 40px;
+    }
+
     .content .title,
     .content .name {
         font-size: 90px;
         width: 740px;
     }
-    
+
     .arrows {
         top: 70%;
     }
-    
-    
+
+
     .manga-content {
         top: 55%;
         left: 100px;
         width: 860px;
     }
-    
+
     .manga-content .des {
         font-size: 18px;
         width: 740px;
     }
-    
+
     .manga-content .manga-title,
     .manga-content .manga-name {
         font-size: 90px;
@@ -51,6 +79,6 @@
         font-size: 2.5rem;
         width: 600px;
     }
-    
+
 
 }

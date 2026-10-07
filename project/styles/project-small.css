@@ -187,12 +187,50 @@ footer {
 
 
 /*--- LANDING PAGE SECTION ---*/
-.landing-hero {
-    width: 100%;
+
+.landing-background {
+    background-image: url(../images/landingpageheroimagesmall.webp);
+    background-position: 50%;
     height: 100vh;
-    overflow: hidden;
-    background-position: 50% 50%;
     background-size: cover;
+}
+.call-to-action{
+    position: relative;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.action {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    width: fit-content;
+    padding: .5rem;
+    margin-left: 2rem;
+}
+
+.call-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.call-btn a {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primary-color);
+    background-color: var(--text-color1);
+    border: 2px solid var(--primary-color);
+    text-decoration: none;
+}
+
+.call-btn a:hover{
+    color: var(--text-color1);
+    background-color: var(--primary-color);
 }
 
 /*--- LANDING PAGE SECTION ---*/
