@@ -16,8 +16,8 @@ console.log(myInfo.get('classification'));
 console.log(myInfo.get('status'));
 
 document.querySelector("#requestDetails").innerHTML = `
-    <p>Thank you ${myInfo.get('fname')} for your request<?p>
-    <br></br>
+    <h1>Thank you ${myInfo.get('fname')} for your request</h1>
+    <br>
     <p>We will add ${myInfo.get('title')} to Mangadb as quickly as possible</p>
     `;
 
