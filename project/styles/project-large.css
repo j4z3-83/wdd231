@@ -46,6 +46,7 @@
     }
 
     .content .title,
+    .content .title h1,
     .content .name {
         font-size: 90px;
         width: 740px;
