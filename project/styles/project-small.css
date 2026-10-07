@@ -25,7 +25,6 @@ header {
     align-items: center;
     position: relative;
     z-index: 1000;
-    background: #BE070A;
     background: linear-gradient(90deg, rgba(190, 7, 10, 1) 0%, rgba(228, 194, 17, 1) 100%);
 
 }
@@ -136,7 +135,6 @@ footer {
     position: relative;
     margin-top: -5px;
     z-index: 500;
-    background: #BE070A;
     background: linear-gradient(90deg, rgba(190, 7, 10, 1) 0%, rgba(228, 194, 17, 1) 100%);
 }
 
@@ -167,25 +165,21 @@ footer {
 }
 
 #town {
-    grid-template-areas: town;
     color: var(--text-color1);
     font-size: larger;
 }
 
 #temperature {
-    grid-template-areas: temp;
     color: var(--text-color1);
     font-size: larger;
 }
 
 #description {
-    grid-template-areas: desc;
     color: var(--text-color1);
     font-size: larger;
 }
 
 #graphic {
-    grid-template-areas: img;
     height: 50px;
 }
 
@@ -302,11 +296,6 @@ footer {
     display: block;
 }
 
-.list .item .content {
-    position: absolute;
-    top: 20%;
-}
-
 .content .title {
     font-size: 40px;
     text-transform: uppercase;
@@ -335,7 +324,6 @@ footer {
     width: 335px;
     border-radius: 15px;
     padding: 5px;
-    margin-bottom: 15px;
 
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
@@ -350,7 +338,6 @@ footer {
 
 .content .btn a {
     padding: 10px 20px;
-    border: none;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
@@ -490,7 +477,6 @@ footer {
     width: 335px;
     border-radius: 15px;
     padding: 5px;
-    border-radius: 6px;
 }
 
 .manga-content .manga-title,
@@ -621,7 +607,6 @@ footer {
 .mform label {
     display: block;
     padding-top: 1rem;
-    color: var;
     font-size: 1.2rem;
     color: var(--text-color1);
 }
